@@ -1,0 +1,16 @@
+﻿iso,arm,adult_people,changed_people,ever_birth_people,ever_union_people,final_legal_union_people,final_nonlegal_union_people,forced_marriage_people,kids_born,people,policy_decisions,policy_people,union_history_missing
+NGA,single,776,726,59,58,58,0,62,226,1000,3314,749,224
+NGA,drift,774,0,699,715,705,10,30,2686,1000,0,0,226
+NGA,nokids,777,54,179,718,711,7,30,380,1000,54,54,223
+IND,drift,900,0,808,841,840,1,32,1856,1000,0,0,100
+IND,nokids,900,43,23,841,839,2,32,25,1000,43,43,100
+IND,single,902,829,59,61,61,0,61,155,1000,2901,869,98
+CHN,nokids,961,47,110,905,895,10,2,111,1000,47,47,39
+CHN,single,961,931,3,3,3,0,3,8,1000,4338,935,39
+BRA,nokids,961,78,117,924,870,54,23,121,1000,111,83,39
+BRA,single,961,934,44,47,47,0,47,100,1000,4837,950,39
+CHN,drift,961,0,847,905,899,6,2,1264,1000,0,0,39
+USA,nokids,987,84,99,880,830,50,1,103,1000,116,95,13
+USA,single,987,947,1,1,1,0,1,3,1000,3864,957,13
+BRA,drift,961,0,868,924,867,57,23,1883,1000,0,0,39
+USA,drift,987,0,764,880,849,31,1,1350,1000,0,0,13
