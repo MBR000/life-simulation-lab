@@ -46,7 +46,7 @@ def main():
   for arm in arms:
    rr=[idx[iso,f'C-{i:06}',arm] for i in range(1,1001)]
    life.append(dict(iso=iso,arm=arm,**stats([r['age'] for r in rr])))
-   cells.append(dict(iso=iso,arm=arm,n=1000,life_mean=st.mean(r['age'] for r in rr),life_median=st.median(r['age'] for r in rr),higher_edu_rate=sum(r['edu']>=3 for r in rr)/1000,death_nw_cny_median=st.median(r['snaps']['death']['nw']*3.5 for r in rr)))
+   cells.append(dict(iso=iso,arm=arm,n=1000,life_mean=st.mean(r['age'] for r in rr),life_median=st.median(r['age'] for r in rr),higher_edu_rate=sum(r['edu']>=4 for r in rr)/1000,death_nw_cny_median=st.median(r['snaps']['death']['nw']*3.5 for r in rr)))
    for age in AGES:
     ss=[r['snaps'][age] for r in rr if age in r['snaps']];survival.append(dict(iso=iso,arm=arm,age=age,n=1000,reached=sum(r['age']>=int(age) for r in rr)))
     for metric,factor in METRICS.items():groups.append(dict(iso=iso,arm=arm,age=age,metric=metric,**stats([s[metric]*factor for s in ss]),negative=sum(s[metric]<0 for s in ss)/len(ss) if ss else None))
