@@ -1,0 +1,11 @@
+iso,arm,n,policy_people,policy_events,changed_people,attempt_people,attempt_events,ever_n
+NGA,avoid,1000,323,600,181,0,0,49
+NGA,seek,1000,382,1109,319,299,521,348
+IND,avoid,1000,293,559,156,0,0,30
+IND,seek,1000,363,897,321,264,458,335
+CHN,avoid,1000,455,854,213,0,0,5
+CHN,seek,1000,832,3598,772,841,2120,814
+BRA,avoid,1000,378,679,196,0,0,19
+BRA,seek,1000,504,1750,456,466,958,457
+USA,avoid,1000,251,284,93,0,0,1
+USA,seek,1000,761,2934,688,729,1665,713

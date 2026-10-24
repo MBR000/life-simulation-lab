@@ -17,3 +17,7 @@ analyze.py is included as methodology source. This repository does not include t
 ## Hosting
 
 GitHub Pages deploys the main branch root. No build step or external scripts required.
+
+## P1_abroad
+
+P1_abroad.html compares seek/avoid abroad policies for 1,000 paired seeds in each of five country settings. Includes CNY purchasing-power amounts, N2 path-sensitivity reference, policy coverage and five paired-life logs. The p1_ CSV and Python/template files provide analysis outputs and source. To rerun, restore the original experiments/P1_abroad/scripts layout, full P1 jobs/runs/raw data and sibling N_noise data; remove p1_ prefixes from script/template names. The public repository alone cannot reproduce the full analysis.
