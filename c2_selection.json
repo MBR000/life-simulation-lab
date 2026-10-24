@@ -1,0 +1,395 @@
+{
+  "rule": "Top 30 by occurrence; first 500 seeds; least automatically selected available option differing from that life automatic choice; ties lexical",
+  "decisions": [
+    [
+      "reflect",
+      {
+        "n": 42764,
+        "auto": {
+          "skip": 42764
+        }
+      }
+    ],
+    [
+      "job",
+      {
+        "n": 28339,
+        "auto": {
+          "o0": 9046,
+          "home": 3526,
+          "o2": 7096,
+          "o1": 7124,
+          "wait": 1547
+        }
+      }
+    ],
+    [
+      "illness",
+      {
+        "n": 25902,
+        "auto": {
+          "cheap": 7855,
+          "hospital": 18047
+        }
+      }
+    ],
+    [
+      "kids",
+      {
+        "n": 23477,
+        "auto": {
+          "yes": 17575,
+          "no": 5902
+        }
+      }
+    ],
+    [
+      "petq",
+      {
+        "n": 23183,
+        "auto": {
+          "no": 11596,
+          "beg": 3176,
+          "dog": 3708,
+          "cat": 3840,
+          "pk_h": 156,
+          "pk_f": 294,
+          "pk_b": 268,
+          "pk_r": 145
+        }
+      }
+    ],
+    [
+      "hobby",
+      {
+        "n": 19409,
+        "auto": {
+          "drama": 1098,
+          "garden": 696,
+          "sp_kabaddi": 343,
+          "none": 2488,
+          "board": 997,
+          "sp_football": 1002,
+          "hiking": 906,
+          "sp_polo": 11,
+          "reading": 729,
+          "screen": 657,
+          "art": 1389,
+          "games": 278,
+          "sp_cricket": 623,
+          "cooking": 476,
+          "fishing": 943,
+          "crafts": 998,
+          "gym": 146,
+          "photo": 183,
+          "sp_basketball": 305,
+          "dance": 1060,
+          "sp_baseball": 76,
+          "music": 1132,
+          "sp_rugby": 44,
+          "faith": 1150,
+          "karaoke": 119,
+          "sp_tabletennis": 209,
+          "sp_icehockey": 41,
+          "sns": 312,
+          "sp_running": 77,
+          "sp_badminton": 310,
+          "sp_boxing": 72,
+          "sp_cycling": 42,
+          "travel": 150,
+          "sp_handball": 26,
+          "sp_amfootball": 29,
+          "sp_waterpolo": 5,
+          "sp_volleyball": 78,
+          "sp_wrestling": 57,
+          "sp_chinlone": 21,
+          "sp_gaelic": 1,
+          "sp_kunkhmer": 5,
+          "sp_hockey": 59,
+          "sp_netball": 31,
+          "sp_ski": 3,
+          "sp_laamb": 8,
+          "sp_muaythai": 14,
+          "sp_takraw": 3,
+          "sp_archery": 2,
+          "sp_aussie": 2,
+          "sp_surf": 2,
+          "sp_kokboru": 1
+        }
+      }
+    ],
+    [
+      "buy",
+      {
+        "n": 17559,
+        "auto": {
+          "buy": 7682,
+          "no": 6168,
+          "loan": 3042,
+          "never": 667
+        }
+      }
+    ],
+    [
+      "partner",
+      {
+        "n": 15357,
+        "auto": {
+          "date": 9920,
+          "yes": 3420,
+          "no": 2017
+        }
+      }
+    ],
+    [
+      "kidwed",
+      {
+        "n": 11266,
+        "auto": {
+          "help": 3887,
+          "none": 2199,
+          "little": 5180
+        }
+      }
+    ],
+    [
+      "temper",
+      {
+        "n": 9335,
+        "auto": {
+          "warm": 2256,
+          "act": 2307,
+          "cur": 2382,
+          "grit": 2390
+        }
+      }
+    ],
+    [
+      "stranger",
+      {
+        "n": 8410,
+        "auto": {
+          "help": 4092,
+          "pass": 4318
+        }
+      }
+    ],
+    [
+      "retire",
+      {
+        "n": 8177,
+        "auto": {
+          "retire": 2975,
+          "work": 4249,
+          "less": 922,
+          "keepbiz": 31
+        }
+      }
+    ],
+    [
+      "babycare",
+      {
+        "n": 7790,
+        "auto": {
+          "carry": 810,
+          "gp": 1846,
+          "me": 729,
+          "ppt": 167,
+          "pt": 185,
+          "pay": 1902,
+          "partner": 2151
+        }
+      }
+    ],
+    [
+      "wedtalk",
+      {
+        "n": 7780,
+        "auto": {
+          "wait": 1963,
+          "cohab": 924,
+          "yes": 3902,
+          "part": 991
+        }
+      }
+    ],
+    [
+      "loan",
+      {
+        "n": 7691,
+        "auto": {
+          "lender": 3633,
+          "family": 3453,
+          "sellv": 365,
+          "sellh": 199,
+          "equity": 41
+        }
+      }
+    ],
+    [
+      "kidsick",
+      {
+        "n": 7395,
+        "auto": {
+          "hospital": 5477,
+          "home": 1918
+        }
+      }
+    ],
+    [
+      "jobchange",
+      {
+        "n": 7069,
+        "auto": {
+          "o0": 2851,
+          "stay": 3482,
+          "o1": 736
+        }
+      }
+    ],
+    [
+      "diag",
+      {
+        "n": 6428,
+        "auto": {
+          "treat": 3347,
+          "ignore": 1703,
+          "life": 1378
+        }
+      }
+    ],
+    [
+      "invest",
+      {
+        "n": 6022,
+        "auto": {
+          "cash": 2718,
+          "mix": 1554,
+          "stock": 1298,
+          "property": 452
+        }
+      }
+    ],
+    [
+      "school3",
+      {
+        "n": 5965,
+        "auto": {
+          "voc": 1515,
+          "go": 3944,
+          "work": 506
+        }
+      }
+    ],
+    [
+      "discipline",
+      {
+        "n": 5269,
+        "auto": {
+          "talk": 2019,
+          "calm": 1358,
+          "hit": 1892
+        }
+      }
+    ],
+    [
+      "nbrkid",
+      {
+        "n": 5173,
+        "auto": {
+          "talk": 1531,
+          "pass": 1300,
+          "report": 2342
+        }
+      }
+    ],
+    [
+      "care",
+      {
+        "n": 5065,
+        "auto": {
+          "sib": 813,
+          "pay": 1195,
+          "near": 1022,
+          "home": 2035
+        }
+      }
+    ],
+    [
+      "rankup",
+      {
+        "n": 4970,
+        "auto": {
+          "no": 720,
+          "up": 4250
+        }
+      }
+    ],
+    [
+      "college",
+      {
+        "n": 4835,
+        "auto": {
+          "job": 1171,
+          "uni": 3518,
+          "acad": 57,
+          "abroad": 81,
+          "acadf": 4,
+          "acadn": 4
+        }
+      }
+    ],
+    [
+      "thanks",
+      {
+        "n": 4744,
+        "auto": {
+          "next": 2399,
+          "call": 2345
+        }
+      }
+    ],
+    [
+      "kinask",
+      {
+        "n": 4672,
+        "auto": {
+          "some": 2087,
+          "no": 896,
+          "give": 1689
+        }
+      }
+    ],
+    [
+      "drink",
+      {
+        "n": 4521,
+        "auto": {
+          "drink": 1881,
+          "stop": 2640
+        }
+      }
+    ],
+    [
+      "school2",
+      {
+        "n": 4482,
+        "auto": {
+          "go": 4176,
+          "work": 306
+        }
+      }
+    ],
+    [
+      "lotto",
+      {
+        "n": 4439,
+        "auto": {
+          "once": 1525,
+          "no": 1805,
+          "weekly": 1109
+        }
+      }
+    ]
+  ]
+}
