@@ -1,0 +1,11 @@
+﻿iso,arm,changed_people,course_events,course_people,fallback_people,final_policy_matches,funeral_events,funeral_people,ged_events,ged_people,learning_people,negative_return_people,nightgrad_events,nightgrad_people,nightuni_events,nightuni_people,observed_event_count,observed_event_people,openuni_events,openuni_people,people,policy_decisions,policy_people,switch_people,target_observed_people
+NGA,full,0,0,0,0,1000,5562,755,19,19,19,0,0,0,0,0,4311,764,0,0,1000,0,0,0,0
+NGA,none,0,0,0,0,774,5367,755,25,23,23,0,0,0,0,0,7316,764,0,0,1000,0,0,0,0
+IND,none,0,0,0,0,900,8686,889,40,40,40,0,0,0,0,0,11281,891,0,0,1000,0,0,0,0
+IND,full,0,0,0,0,1000,8602,889,48,47,47,0,0,0,0,0,5605,891,0,0,1000,0,0,0,0
+CHN,full,0,0,0,0,1000,10132,954,28,28,28,0,0,0,0,0,4506,957,0,0,1000,0,0,0,0
+BRA,full,0,0,0,0,1000,9404,958,64,62,62,0,0,0,0,0,5486,958,0,0,1000,0,0,0,0
+CHN,none,0,0,0,0,961,10162,954,26,24,24,0,0,0,0,0,13433,957,0,0,1000,0,0,0,0
+BRA,none,0,0,0,0,961,9418,958,60,59,59,0,0,0,0,0,12636,958,0,0,1000,0,0,0,0
+USA,full,0,0,0,0,1000,10182,984,14,14,14,0,0,0,0,0,4775,984,0,0,1000,0,0,0,0
+USA,none,0,0,0,0,987,10234,984,13,13,13,0,0,0,0,0,13284,984,0,0,1000,0,0,0,0
