@@ -1,0 +1,745 @@
+group,birth_n,age,snapshot_n,metric,unit,p10,p25,median,p75,p90
+全球样本,10000,24,8994,income,CNY purchasing power; engine factor 3.5,0.0,0.0,17515.06,38542.52,83311.39
+全球样本,10000,24,8994,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1459.59,3211.88,6942.62
+全球样本,10000,24,8994,money,CNY purchasing power; engine factor 3.5,-8821.93,-2636.74,1723.75,16340.74,56474.48
+全球样本,10000,24,8994,nw,CNY purchasing power; engine factor 3.5,-8586.64,-2526.89,1778.64,16611.43,57889.23
+全球样本,10000,30,8889,income,CNY purchasing power; engine factor 3.5,0.0,0.0,23230.61,54478.35,116078.34
+全球样本,10000,30,8889,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1935.88,4539.86,9673.19
+全球样本,10000,30,8889,money,CNY purchasing power; engine factor 3.5,-58462.61,-9024.56,-120.92,21180.7,126770.76
+全球样本,10000,30,8889,nw,CNY purchasing power; engine factor 3.5,-9062.34,-2880.71,6810.62,61687.2,192780.57
+全球样本,10000,35,8809,income,CNY purchasing power; engine factor 3.5,0.0,0.0,26660.74,64035.76,136109.28
+全球样本,10000,35,8809,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2221.73,5336.31,11342.44
+全球样本,10000,35,8809,money,CNY purchasing power; engine factor 3.5,-96518.49,-22855.74,-2905.57,16041.57,168535.3
+全球样本,10000,35,8809,nw,CNY purchasing power; engine factor 3.5,-10132.59,-3092.06,12101.82,110846.73,365870.26
+全球样本,10000,40,8712,income,CNY purchasing power; engine factor 3.5,0.0,0.0,30447.43,74806.76,152332.53
+全球样本,10000,40,8712,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2537.29,6233.9,12694.38
+全球样本,10000,40,8712,money,CNY purchasing power; engine factor 3.5,-123732.72,-39214.28,-4902.87,15268.13,221211.07
+全球样本,10000,40,8712,nw,CNY purchasing power; engine factor 3.5,-12199.89,-3411.38,20204.28,174490.2,577935.1
+全球样本,10000,50,8456,income,CNY purchasing power; engine factor 3.5,0.0,5600.94,40746.47,96989.53,188448.68
+全球样本,10000,50,8456,monthly_income,CNY purchasing power; engine factor 3.5,0.0,466.75,3395.54,8082.46,15704.06
+全球样本,10000,50,8456,money,CNY purchasing power; engine factor 3.5,-135055.47,-37531.84,-2515.96,49827.49,484382.27
+全球样本,10000,50,8456,nw,CNY purchasing power; engine factor 3.5,-14681.18,-1346.97,46723.8,353009.56,1127455.46
+全球样本,10000,65,7652,income,CNY purchasing power; engine factor 3.5,0.0,0.0,28580.12,85116.06,180431.05
+全球样本,10000,65,7652,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2381.68,7093.0,15035.92
+全球样本,10000,65,7652,money,CNY purchasing power; engine factor 3.5,-34255.76,8531.98,63692.65,357032.32,1769458.78
+全球样本,10000,65,7652,nw,CNY purchasing power; engine factor 3.5,3709.71,35443.37,159582.92,783915.73,2569668.72
+中国出生,1207,24,1155,income,CNY purchasing power; engine factor 3.5,19830.34,31757.38,43783.18,64229.69,81285.1
+中国出生,1207,24,1155,monthly_income,CNY purchasing power; engine factor 3.5,1652.53,2646.45,3648.6,5352.47,6773.76
+中国出生,1207,24,1155,money,CNY purchasing power; engine factor 3.5,0.0,13991.73,39051.09,76841.15,121608.66
+中国出生,1207,24,1155,nw,CNY purchasing power; engine factor 3.5,3040.02,15271.55,40609.82,80267.77,124138.72
+中国出生,1207,30,1152,income,CNY purchasing power; engine factor 3.5,19915.23,39254.09,56150.29,83376.77,108265.23
+中国出生,1207,30,1152,monthly_income,CNY purchasing power; engine factor 3.5,1659.6,3271.17,4679.19,6948.06,9022.1
+中国出生,1207,30,1152,money,CNY purchasing power; engine factor 3.5,-127018.99,7405.27,91488.25,178201.96,319485.64
+中国出生,1207,30,1152,nw,CNY purchasing power; engine factor 3.5,37802.83,90811.78,161741.17,289590.8,455558.41
+中国出生,1207,35,1146,income,CNY purchasing power; engine factor 3.5,0.0,42930.83,65923.89,98159.91,133050.99
+中国出生,1207,35,1146,monthly_income,CNY purchasing power; engine factor 3.5,0.0,3577.57,5493.66,8179.99,11087.58
+中国出生,1207,35,1146,money,CNY purchasing power; engine factor 3.5,-189831.56,-66108.45,110701.09,279496.46,521021.96
+中国出生,1207,35,1146,nw,CNY purchasing power; engine factor 3.5,91794.21,166971.51,301595.1,521240.93,841719.5
+中国出生,1207,40,1139,income,CNY purchasing power; engine factor 3.5,0.0,48455.7,74620.82,111320.65,152451.17
+中国出生,1207,40,1139,monthly_income,CNY purchasing power; engine factor 3.5,0.0,4037.98,6218.4,9276.72,12704.26
+中国出生,1207,40,1139,money,CNY purchasing power; engine factor 3.5,-246348.03,-65556.55,152775.04,393567.77,802412.31
+中国出生,1207,40,1139,nw,CNY purchasing power; engine factor 3.5,140141.54,256903.01,480439.15,807927.91,1399184.2
+中国出生,1207,50,1124,income,CNY purchasing power; engine factor 3.5,41114.41,59950.56,93991.99,136759.99,186488.15
+中国出生,1207,50,1124,monthly_income,CNY purchasing power; engine factor 3.5,3426.2,4995.88,7832.67,11396.67,15540.68
+中国出生,1207,50,1124,money,CNY purchasing power; engine factor 3.5,-283572.1,-38401.77,311883.86,927359.2,1814589.38
+中国出生,1207,50,1124,nw,CNY purchasing power; engine factor 3.5,217186.67,468590.6,931727.77,1665477.5,2767679.59
+中国出生,1207,65,1055,income,CNY purchasing power; engine factor 3.5,21162.46,45088.02,85144.56,146361.85,202153.64
+中国出生,1207,65,1055,monthly_income,CNY purchasing power; engine factor 3.5,1763.54,3757.33,7095.38,12196.82,16846.14
+中国出生,1207,65,1055,money,CNY purchasing power; engine factor 3.5,27837.36,307388.77,1059509.83,2640866.54,4959414.45
+中国出生,1207,65,1055,nw,CNY purchasing power; engine factor 3.5,429367.82,808914.5,1763210.9,3646570.63,6016939.81
+中国以外,8793,24,7839,income,CNY purchasing power; engine factor 3.5,0.0,0.0,13268.43,31370.63,84394.33
+中国以外,8793,24,7839,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1105.7,2614.22,7032.86
+中国以外,8793,24,7839,money,CNY purchasing power; engine factor 3.5,-9433.48,-3666.28,713.86,9644.19,35366.12
+中国以外,8793,24,7839,nw,CNY purchasing power; engine factor 3.5,-9433.48,-3666.28,713.86,9644.19,35366.12
+中国以外,8793,30,7737,income,CNY purchasing power; engine factor 3.5,0.0,0.0,18686.13,45300.1,119040.52
+中国以外,8793,30,7737,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1557.18,3775.01,9920.04
+中国以外,8793,30,7737,money,CNY purchasing power; engine factor 3.5,-50354.22,-9345.52,-1123.43,10215.26,66219.21
+中国以外,8793,30,7737,nw,CNY purchasing power; engine factor 3.5,-9821.06,-4101.69,2398.9,31326.44,107093.84
+中国以外,8793,35,7663,income,CNY purchasing power; engine factor 3.5,0.0,0.0,21449.35,51602.68,137574.01
+中国以外,8793,35,7663,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1787.45,4300.22,11464.5
+中国以外,8793,35,7663,money,CNY purchasing power; engine factor 3.5,-84468.25,-21685.11,-3867.74,5817.28,77987.83
+中国以外,8793,35,7663,nw,CNY purchasing power; engine factor 3.5,-11255.92,-4640.49,4410.51,57457.84,200760.65
+中国以外,8793,40,7573,income,CNY purchasing power; engine factor 3.5,0.0,0.0,24546.31,60999.7,152295.01
+中国以外,8793,40,7573,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2045.53,5083.31,12691.25
+中国以外,8793,40,7573,money,CNY purchasing power; engine factor 3.5,-107580.96,-37956.02,-6040.52,3595.63,79736.33
+中国以外,8793,40,7573,nw,CNY purchasing power; engine factor 3.5,-13960.75,-4891.55,7433.32,85286.58,321822.59
+中国以外,8793,50,7332,income,CNY purchasing power; engine factor 3.5,0.0,0.0,33182.54,82390.98,188813.48
+中国以外,8793,50,7332,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2765.21,6865.91,15734.46
+中国以外,8793,50,7332,money,CNY purchasing power; engine factor 3.5,-117257.35,-37470.98,-4772.66,17722.75,186542.85
+中国以外,8793,50,7332,nw,CNY purchasing power; engine factor 3.5,-17327.98,-3502.78,21681.5,170447.92,631131.47
+中国以外,8793,65,6597,income,CNY purchasing power; engine factor 3.5,0.0,0.0,22380.74,66091.74,170161.06
+中国以外,8793,65,6597,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1865.06,5507.64,14180.09
+中国以外,8793,65,6597,money,CNY purchasing power; engine factor 3.5,-36209.89,5622.34,46079.03,169879.91,878920.85
+中国以外,8793,65,6597,nw,CNY purchasing power; engine factor 3.5,1120.88,26252.67,112119.21,428848.61,1522088.66
+印度出生,2190,24,1936,income,CNY purchasing power; engine factor 3.5,0.0,0.0,16383.94,24241.1,34561.53
+印度出生,2190,24,1936,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1365.33,2020.09,2880.13
+印度出生,2190,24,1936,money,CNY purchasing power; engine factor 3.5,-12432.11,-4655.31,0.0,6063.25,14673.46
+印度出生,2190,24,1936,nw,CNY purchasing power; engine factor 3.5,-12432.11,-4655.31,0.0,6063.25,14673.46
+印度出生,2190,30,1914,income,CNY purchasing power; engine factor 3.5,0.0,0.0,20143.35,30726.44,46246.56
+印度出生,2190,30,1914,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1678.61,2560.54,3853.88
+印度出生,2190,30,1914,money,CNY purchasing power; engine factor 3.5,-56023.69,-12747.25,-5231.19,2675.24,14882.66
+印度出生,2190,30,1914,nw,CNY purchasing power; engine factor 3.5,-12483.09,-5816.51,0.0,14297.01,45793.47
+印度出生,2190,35,1898,income,CNY purchasing power; engine factor 3.5,0.0,0.0,23142.82,35132.28,53933.13
+印度出生,2190,35,1898,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1928.57,2927.69,4494.43
+印度出生,2190,35,1898,money,CNY purchasing power; engine factor 3.5,-75238.28,-32454.65,-5862.17,0.0,12808.85
+印度出生,2190,35,1898,nw,CNY purchasing power; engine factor 3.5,-13090.37,-6006.37,0.0,30621.73,78258.85
+印度出生,2190,40,1884,income,CNY purchasing power; engine factor 3.5,0.0,0.0,24643.11,40225.89,60947.53
+印度出生,2190,40,1884,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2053.59,3352.16,5078.96
+印度出生,2190,40,1884,money,CNY purchasing power; engine factor 3.5,-85602.86,-44294.36,-7291.62,0.0,12660.96
+印度出生,2190,40,1884,nw,CNY purchasing power; engine factor 3.5,-15763.74,-6820.47,0.0,44663.75,103582.5
+印度出生,2190,50,1826,income,CNY purchasing power; engine factor 3.5,0.0,0.0,30317.52,51557.29,78793.86
+印度出生,2190,50,1826,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2526.46,4296.44,6566.16
+印度出生,2190,50,1826,money,CNY purchasing power; engine factor 3.5,-92469.61,-44779.3,-8416.67,3495.74,33676.89
+印度出生,2190,50,1826,nw,CNY purchasing power; engine factor 3.5,-25020.47,-8337.2,4750.99,74542.31,169461.95
+印度出生,2190,65,1653,income,CNY purchasing power; engine factor 3.5,0.0,0.0,13881.39,42046.56,66948.36
+印度出生,2190,65,1653,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1156.78,3503.88,5579.03
+印度出生,2190,65,1653,money,CNY purchasing power; engine factor 3.5,-35185.23,5811.25,44726.83,101749.51,191067.05
+印度出生,2190,65,1653,nw,CNY purchasing power; engine factor 3.5,-5721.2,30120.62,85172.7,208688.41,378287.31
+尼日利亚出生,427,24,311,income,CNY purchasing power; engine factor 3.5,0.0,0.0,13360.78,21764.43,32623.55
+尼日利亚出生,427,24,311,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1113.4,1813.7,2718.63
+尼日利亚出生,427,24,311,money,CNY purchasing power; engine factor 3.5,-6157.43,-3293.38,1291.43,6076.38,17297.77
+尼日利亚出生,427,24,311,nw,CNY purchasing power; engine factor 3.5,-6157.43,-3293.38,1291.43,6076.38,17297.77
+尼日利亚出生,427,30,302,income,CNY purchasing power; engine factor 3.5,0.0,0.0,16139.21,27556.67,44740.51
+尼日利亚出生,427,30,302,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1344.93,2296.39,3728.38
+尼日利亚出生,427,30,302,money,CNY purchasing power; engine factor 3.5,-35572.17,-7445.53,-2468.39,7166.02,22833.08
+尼日利亚出生,427,30,302,nw,CNY purchasing power; engine factor 3.5,-8373.86,-4482.28,886.84,13709.99,44169.59
+尼日利亚出生,427,35,297,income,CNY purchasing power; engine factor 3.5,0.0,0.0,17721.43,34771.14,51966.79
+尼日利亚出生,427,35,297,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1476.79,2897.6,4330.57
+尼日利亚出生,427,35,297,money,CNY purchasing power; engine factor 3.5,-53178.29,-13090.84,-5400.2,1326.13,16152.19
+尼日利亚出生,427,35,297,nw,CNY purchasing power; engine factor 3.5,-11120.83,-7369.69,-268.32,22452.79,63011.39
+尼日利亚出生,427,40,287,income,CNY purchasing power; engine factor 3.5,0.0,10957.17,21790.54,40680.9,67782.83
+尼日利亚出生,427,40,287,monthly_income,CNY purchasing power; engine factor 3.5,0.0,913.1,1815.88,3390.08,5648.57
+尼日利亚出生,427,40,287,money,CNY purchasing power; engine factor 3.5,-73414.61,-28710.66,-7472.63,-374.78,12316.4
+尼日利亚出生,427,40,287,nw,CNY purchasing power; engine factor 3.5,-13549.54,-8472.93,-491.2,31046.33,89842.31
+尼日利亚出生,427,50,267,income,CNY purchasing power; engine factor 3.5,0.0,19619.02,28504.59,58995.01,89548.22
+尼日利亚出生,427,50,267,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1634.92,2375.38,4916.25,7462.35
+尼日利亚出生,427,50,267,money,CNY purchasing power; engine factor 3.5,-74374.62,-38022.99,-8681.84,6596.01,56872.76
+尼日利亚出生,427,50,267,nw,CNY purchasing power; engine factor 3.5,-17813.33,-9459.04,3938.23,63407.69,193889.34
+尼日利亚出生,427,65,201,income,CNY purchasing power; engine factor 3.5,0.0,10545.26,23259.25,40091.9,69234.61
+尼日利亚出生,427,65,201,monthly_income,CNY purchasing power; engine factor 3.5,0.0,878.77,1938.27,3340.99,5769.55
+尼日利亚出生,427,65,201,money,CNY purchasing power; engine factor 3.5,-42575.48,-2568.58,23601.18,70222.32,174912.82
+尼日利亚出生,427,65,201,nw,CNY purchasing power; engine factor 3.5,-4672.82,14196.33,46977.73,174326.28,368975.61
+巴基斯坦出生,393,24,343,income,CNY purchasing power; engine factor 3.5,0.0,0.0,9059.84,13160.51,20275.34
+巴基斯坦出生,393,24,343,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,754.99,1096.71,1689.61
+巴基斯坦出生,393,24,343,money,CNY purchasing power; engine factor 3.5,-5295.93,-2479.68,0.0,2685.82,7971.52
+巴基斯坦出生,393,24,343,nw,CNY purchasing power; engine factor 3.5,-5295.93,-2479.68,0.0,2685.82,7971.52
+巴基斯坦出生,393,30,334,income,CNY purchasing power; engine factor 3.5,0.0,0.0,10740.09,16031.01,29082.68
+巴基斯坦出生,393,30,334,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,895.01,1335.92,2423.56
+巴基斯坦出生,393,30,334,money,CNY purchasing power; engine factor 3.5,-30409.96,-6802.09,-2880.71,282.71,7883.59
+巴基斯坦出生,393,30,334,nw,CNY purchasing power; engine factor 3.5,-6631.06,-3702.85,-1524.65,7736.1,24720.88
+巴基斯坦出生,393,35,332,income,CNY purchasing power; engine factor 3.5,0.0,0.0,11614.6,17993.48,34642.56
+巴基斯坦出生,393,35,332,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,967.88,1499.46,2886.88
+巴基斯坦出生,393,35,332,money,CNY purchasing power; engine factor 3.5,-40764.73,-20173.56,-4563.14,-852.6,3825.93
+巴基斯坦出生,393,35,332,nw,CNY purchasing power; engine factor 3.5,-9738.34,-4928.63,-1309.03,13229.22,39106.61
+巴基斯坦出生,393,40,324,income,CNY purchasing power; engine factor 3.5,0.0,0.0,11395.05,20679.53,36946.5
+巴基斯坦出生,393,40,324,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,949.59,1723.29,3078.88
+巴基斯坦出生,393,40,324,money,CNY purchasing power; engine factor 3.5,-50208.42,-25358.35,-5314.5,-1819.57,5045.22
+巴基斯坦出生,393,40,324,nw,CNY purchasing power; engine factor 3.5,-19542.62,-6029.83,-2757.6,18260.36,47459.01
+巴基斯坦出生,393,50,307,income,CNY purchasing power; engine factor 3.5,0.0,0.0,14772.9,29141.77,48043.73
+巴基斯坦出生,393,50,307,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1231.07,2428.48,4003.64
+巴基斯坦出生,393,50,307,money,CNY purchasing power; engine factor 3.5,-61206.93,-30353.99,-8602.91,-157.8,5486.22
+巴基斯坦出生,393,50,307,nw,CNY purchasing power; engine factor 3.5,-32449.42,-10480.81,-522.5,21216.21,75684.64
+巴基斯坦出生,393,65,269,income,CNY purchasing power; engine factor 3.5,0.0,0.0,6734.12,22027.02,32623.9
+巴基斯坦出生,393,65,269,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,561.18,1835.58,2718.66
+巴基斯坦出生,393,65,269,money,CNY purchasing power; engine factor 3.5,-42055.42,-1447.22,16118.88,41633.59,70406.15
+巴基斯坦出生,393,65,269,nw,CNY purchasing power; engine factor 3.5,-8760.32,8229.17,32702.8,75376.1,173584.57
+印度尼西亚出生,352,24,330,income,CNY purchasing power; engine factor 3.5,0.0,16214.88,25449.84,38057.27,53203.52
+印度尼西亚出生,352,24,330,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1351.24,2120.82,3171.44,4433.63
+印度尼西亚出生,352,24,330,money,CNY purchasing power; engine factor 3.5,-7891.89,-2366.42,4262.52,15739.92,39979.52
+印度尼西亚出生,352,24,330,nw,CNY purchasing power; engine factor 3.5,-7891.89,-2366.42,4262.52,15739.92,39979.52
+印度尼西亚出生,352,30,330,income,CNY purchasing power; engine factor 3.5,0.0,20264.52,32087.83,51752.0,79380.85
+印度尼西亚出生,352,30,330,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1688.71,2673.99,4312.67,6615.07
+印度尼西亚出生,352,30,330,money,CNY purchasing power; engine factor 3.5,-48392.01,-7061.81,3190.13,16638.56,74123.43
+印度尼西亚出生,352,30,330,nw,CNY purchasing power; engine factor 3.5,-7333.77,-351.94,10802.93,48744.71,96968.56
+印度尼西亚出生,352,35,328,income,CNY purchasing power; engine factor 3.5,0.0,20002.41,36615.52,65003.28,98631.85
+印度尼西亚出生,352,35,328,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1666.87,3051.29,5416.94,8219.32
+印度尼西亚出生,352,35,328,money,CNY purchasing power; engine factor 3.5,-82531.48,-14273.42,22.54,18486.37,88824.8
+印度尼西亚出生,352,35,328,nw,CNY purchasing power; engine factor 3.5,-8247.21,-243.49,15564.21,77902.1,184324.82
+印度尼西亚出生,352,40,326,income,CNY purchasing power; engine factor 3.5,0.0,24938.5,44272.87,74830.24,115321.52
+印度尼西亚出生,352,40,326,monthly_income,CNY purchasing power; engine factor 3.5,0.0,2078.21,3689.41,6235.85,9610.13
+印度尼西亚出生,352,40,326,money,CNY purchasing power; engine factor 3.5,-106463.37,-39444.78,-3930.0,20566.48,116919.82
+印度尼西亚出生,352,40,326,nw,CNY purchasing power; engine factor 3.5,-10905.75,-150.74,29349.56,104498.49,276983.55
+印度尼西亚出生,352,50,318,income,CNY purchasing power; engine factor 3.5,0.0,35528.83,59839.84,103520.37,150297.78
+印度尼西亚出生,352,50,318,monthly_income,CNY purchasing power; engine factor 3.5,0.0,2960.74,4986.65,8626.7,12524.82
+印度尼西亚出生,352,50,318,money,CNY purchasing power; engine factor 3.5,-104131.32,-34530.29,6061.63,85355.79,398909.53
+印度尼西亚出生,352,50,318,nw,CNY purchasing power; engine factor 3.5,-10796.35,6545.28,81527.49,294662.99,621217.0
+印度尼西亚出生,352,65,291,income,CNY purchasing power; engine factor 3.5,0.0,10961.33,38146.97,73884.29,115566.77
+印度尼西亚出生,352,65,291,monthly_income,CNY purchasing power; engine factor 3.5,0.0,913.44,3178.91,6157.02,9630.56
+印度尼西亚出生,352,65,291,money,CNY purchasing power; engine factor 3.5,-17644.59,35109.06,125954.35,357978.74,1530918.16
+印度尼西亚出生,352,65,291,nw,CNY purchasing power; engine factor 3.5,27407.79,100084.1,284618.96,659138.53,1792400.15
+美国出生,296,24,293,income,CNY purchasing power; engine factor 3.5,67610.83,93111.57,125741.53,175159.46,255820.48
+美国出生,296,24,293,monthly_income,CNY purchasing power; engine factor 3.5,5634.24,7759.3,10478.46,14596.62,21318.37
+美国出生,296,24,293,money,CNY purchasing power; engine factor 3.5,-46890.83,0.0,26402.94,71137.95,198741.58
+美国出生,296,24,293,nw,CNY purchasing power; engine factor 3.5,-46890.83,0.0,26402.94,71137.95,198741.58
+美国出生,296,30,290,income,CNY purchasing power; engine factor 3.5,92339.9,115951.89,169099.76,235580.03,371828.1
+美国出生,296,30,290,monthly_income,CNY purchasing power; engine factor 3.5,7694.99,9662.66,14091.65,19631.67,30985.67
+美国出生,296,30,290,money,CNY purchasing power; engine factor 3.5,-278556.86,-2148.15,58075.85,173714.67,375697.34
+美国出生,296,30,290,nw,CNY purchasing power; engine factor 3.5,-33101.88,20992.62,107735.1,310370.57,600018.52
+美国出生,296,35,289,income,CNY purchasing power; engine factor 3.5,86417.15,127710.32,190330.59,269485.53,411361.63
+美国出生,296,35,289,monthly_income,CNY purchasing power; engine factor 3.5,7201.43,10642.53,15860.88,22457.13,34280.14
+美国出生,296,35,289,money,CNY purchasing power; engine factor 3.5,-634722.42,-95688.33,41076.6,252786.11,647470.57
+美国出生,296,35,289,nw,CNY purchasing power; engine factor 3.5,-26068.49,34502.94,202640.11,566868.65,932204.95
+美国出生,296,40,287,income,CNY purchasing power; engine factor 3.5,0.0,131981.34,206723.65,294108.96,463644.6
+美国出生,296,40,287,monthly_income,CNY purchasing power; engine factor 3.5,0.0,10998.44,17226.97,24509.08,38637.05
+美国出生,296,40,287,money,CNY purchasing power; engine factor 3.5,-716544.38,-391173.84,8670.4,255242.59,939441.11
+美国出生,296,40,287,nw,CNY purchasing power; engine factor 3.5,-15918.98,77248.83,348057.68,798822.41,1602392.28
+美国出生,296,50,286,income,CNY purchasing power; engine factor 3.5,106711.57,165240.74,252323.55,359193.95,493407.13
+美国出生,296,50,286,monthly_income,CNY purchasing power; engine factor 3.5,8892.63,13770.06,21026.96,29932.83,41117.26
+美国出生,296,50,286,money,CNY purchasing power; engine factor 3.5,-782136.79,-401249.08,29041.46,512232.41,2341410.18
+美国出生,296,50,286,nw,CNY purchasing power; engine factor 3.5,17406.21,214966.67,800996.08,1536963.79,3141703.51
+美国出生,296,65,278,income,CNY purchasing power; engine factor 3.5,111233.59,127142.8,224093.27,361782.83,483590.7
+美国出生,296,65,278,monthly_income,CNY purchasing power; engine factor 3.5,9269.47,10595.23,18674.44,30148.57,40299.22
+美国出生,296,65,278,money,CNY purchasing power; engine factor 3.5,-378373.48,-61968.76,595961.56,2388652.42,6612061.38
+美国出生,296,65,278,nw,CNY purchasing power; engine factor 3.5,94044.16,651848.63,1723979.1,3504185.32,7359702.68
+孟加拉国出生,291,24,265,income,CNY purchasing power; engine factor 3.5,0.0,0.0,14809.65,20286.83,28686.5
+孟加拉国出生,291,24,265,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1234.14,1690.57,2390.54
+孟加拉国出生,291,24,265,money,CNY purchasing power; engine factor 3.5,-9545.46,-4467.92,-2941.03,3195.02,12482.08
+孟加拉国出生,291,24,265,nw,CNY purchasing power; engine factor 3.5,-9545.46,-4467.92,-2941.03,3195.02,12482.08
+孟加拉国出生,291,30,261,income,CNY purchasing power; engine factor 3.5,0.0,0.0,17212.17,25345.79,35927.19
+孟加拉国出生,291,30,261,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1434.35,2112.15,2993.93
+孟加拉国出生,291,30,261,money,CNY purchasing power; engine factor 3.5,-49992.61,-9437.85,-4561.69,355.98,8919.86
+孟加拉国出生,291,30,261,nw,CNY purchasing power; engine factor 3.5,-9367.52,-4561.69,-1108.64,10311.16,43585.13
+孟加拉国出生,291,35,258,income,CNY purchasing power; engine factor 3.5,0.0,0.0,19129.51,28407.04,41604.0
+孟加拉国出生,291,35,258,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1594.13,2367.25,3467.0
+孟加拉国出生,291,35,258,money,CNY purchasing power; engine factor 3.5,-61943.05,-15639.44,-5117.43,0.0,7751.98
+孟加拉国出生,291,35,258,nw,CNY purchasing power; engine factor 3.5,-10514.62,-5117.43,0.0,22370.81,59955.12
+孟加拉国出生,291,40,255,income,CNY purchasing power; engine factor 3.5,0.0,0.0,20873.72,31667.12,44318.38
+孟加拉国出生,291,40,255,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1739.48,2638.93,3693.2
+孟加拉国出生,291,40,255,money,CNY purchasing power; engine factor 3.5,-68808.36,-31695.98,-5872.29,0.0,8048.75
+孟加拉国出生,291,40,255,nw,CNY purchasing power; engine factor 3.5,-16584.52,-5995.31,0.0,36619.2,79082.79
+孟加拉国出生,291,50,250,income,CNY purchasing power; engine factor 3.5,0.0,0.0,27719.42,43392.37,61431.98
+孟加拉国出生,291,50,250,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2309.95,3616.03,5119.33
+孟加拉国出生,291,50,250,money,CNY purchasing power; engine factor 3.5,-70867.95,-34656.43,-7149.23,5395.57,24551.62
+孟加拉国出生,291,50,250,nw,CNY purchasing power; engine factor 3.5,-27817.41,-7149.23,5580.05,44936.8,116547.63
+孟加拉国出生,291,65,238,income,CNY purchasing power; engine factor 3.5,0.0,0.0,13984.21,35763.96,62510.56
+孟加拉国出生,291,65,238,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1165.35,2980.33,5209.21
+孟加拉国出生,291,65,238,money,CNY purchasing power; engine factor 3.5,-27742.25,4114.91,35141.84,68257.81,112695.3
+孟加拉国出生,291,65,238,nw,CNY purchasing power; engine factor 3.5,2129.75,26524.17,67180.04,148729.1,292349.28
+巴西出生,253,24,238,income,CNY purchasing power; engine factor 3.5,0.0,0.0,25466.0,38779.74,60314.14
+巴西出生,253,24,238,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2122.17,3231.65,5026.18
+巴西出生,253,24,238,money,CNY purchasing power; engine factor 3.5,-7342.53,-3130.71,2209.47,11271.65,42235.65
+巴西出生,253,24,238,nw,CNY purchasing power; engine factor 3.5,-7342.53,-3130.71,2209.47,11271.65,42235.65
+巴西出生,253,30,236,income,CNY purchasing power; engine factor 3.5,0.0,0.0,33744.77,57053.44,83890.2
+巴西出生,253,30,236,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2812.06,4754.45,6990.85
+巴西出生,253,30,236,money,CNY purchasing power; engine factor 3.5,-98354.51,-9073.0,111.14,14328.03,58871.39
+巴西出生,253,30,236,nw,CNY purchasing power; engine factor 3.5,-9569.1,-5427.07,6703.01,41880.37,93846.82
+巴西出生,253,35,235,income,CNY purchasing power; engine factor 3.5,0.0,4248.98,36206.68,66809.52,106624.78
+巴西出生,253,35,235,monthly_income,CNY purchasing power; engine factor 3.5,0.0,354.08,3017.22,5567.46,8885.4
+巴西出生,253,35,235,money,CNY purchasing power; engine factor 3.5,-121299.92,-37834.44,-8899.73,14020.38,55378.3
+巴西出生,253,35,235,nw,CNY purchasing power; engine factor 3.5,-14200.62,-9253.65,11195.11,84706.02,151958.41
+巴西出生,253,40,232,income,CNY purchasing power; engine factor 3.5,0.0,13509.82,41796.31,82591.58,126423.7
+巴西出生,253,40,232,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1125.82,3483.03,6882.63,10535.31
+巴西出生,253,40,232,money,CNY purchasing power; engine factor 3.5,-126837.39,-59103.92,-6948.46,22804.38,82835.75
+巴西出生,253,40,232,nw,CNY purchasing power; engine factor 3.5,-12372.45,-623.27,41290.65,122218.71,249783.91
+巴西出生,253,50,227,income,CNY purchasing power; engine factor 3.5,0.0,28118.28,58859.05,110063.18,184957.16
+巴西出生,253,50,227,monthly_income,CNY purchasing power; engine factor 3.5,0.0,2343.19,4904.92,9171.93,15413.1
+巴西出生,253,50,227,money,CNY purchasing power; engine factor 3.5,-123710.92,-43956.4,0.0,54785.53,427258.06
+巴西出生,253,50,227,nw,CNY purchasing power; engine factor 3.5,-13563.22,1645.02,110674.75,297675.9,673631.24
+巴西出生,253,65,207,income,CNY purchasing power; engine factor 3.5,0.0,22233.83,65517.14,126802.99,192011.69
+巴西出生,253,65,207,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1852.82,5459.76,10566.92,16000.97
+巴西出生,253,65,207,money,CNY purchasing power; engine factor 3.5,-630.37,50760.72,132139.43,357908.22,1988292.94
+巴西出生,253,65,207,nw,CNY purchasing power; engine factor 3.5,45272.5,111371.71,360061.49,655416.02,2287484.48
+埃塞俄比亚出生,245,24,190,income,CNY purchasing power; engine factor 3.5,0.0,4597.02,6355.39,7515.31,9234.63
+埃塞俄比亚出生,245,24,190,monthly_income,CNY purchasing power; engine factor 3.5,0.0,383.08,529.62,626.28,769.55
+埃塞俄比亚出生,245,24,190,money,CNY purchasing power; engine factor 3.5,-2045.94,-1293.77,0.0,786.19,4394.4
+埃塞俄比亚出生,245,24,190,nw,CNY purchasing power; engine factor 3.5,-2045.94,-1293.77,0.0,786.19,4394.4
+埃塞俄比亚出生,245,30,183,income,CNY purchasing power; engine factor 3.5,0.0,6337.65,7921.94,9266.68,11661.23
+埃塞俄比亚出生,245,30,183,monthly_income,CNY purchasing power; engine factor 3.5,0.0,528.14,660.16,772.22,971.77
+埃塞俄比亚出生,245,30,183,money,CNY purchasing power; engine factor 3.5,-24022.96,-5665.45,-1550.87,0.0,1417.64
+埃塞俄比亚出生,245,30,183,nw,CNY purchasing power; engine factor 3.5,-3481.28,-1684.65,0.0,5257.3,14459.8
+埃塞俄比亚出生,245,35,180,income,CNY purchasing power; engine factor 3.5,0.0,7043.2,8973.85,10569.64,14831.06
+埃塞俄比亚出生,245,35,180,monthly_income,CNY purchasing power; engine factor 3.5,0.0,586.93,747.82,880.8,1235.92
+埃塞俄比亚出生,245,35,180,money,CNY purchasing power; engine factor 3.5,-31207.7,-12837.2,-2321.66,0.0,961.86
+埃塞俄比亚出生,245,35,180,nw,CNY purchasing power; engine factor 3.5,-4298.02,-2298.23,0.0,9252.88,19072.06
+埃塞俄比亚出生,245,40,179,income,CNY purchasing power; engine factor 3.5,0.0,7970.06,9919.27,12088.95,16896.85
+埃塞俄比亚出生,245,40,179,monthly_income,CNY purchasing power; engine factor 3.5,0.0,664.17,826.61,1007.41,1408.07
+埃塞俄比亚出生,245,40,179,money,CNY purchasing power; engine factor 3.5,-28734.16,-12997.23,-3128.24,-23.71,3994.79
+埃塞俄比亚出生,245,40,179,nw,CNY purchasing power; engine factor 3.5,-4665.18,-2967.6,0.0,12638.58,26813.95
+埃塞俄比亚出生,245,50,173,income,CNY purchasing power; engine factor 3.5,0.0,9776.84,12389.8,16084.36,24852.25
+埃塞俄比亚出生,245,50,173,monthly_income,CNY purchasing power; engine factor 3.5,0.0,814.74,1032.48,1340.36,2071.02
+埃塞俄比亚出生,245,50,173,money,CNY purchasing power; engine factor 3.5,-27239.33,-9809.34,-2515.11,1334.43,17203.89
+埃塞俄比亚出生,245,50,173,nw,CNY purchasing power; engine factor 3.5,-6105.64,-2515.11,2646.3,20968.59,50893.15
+埃塞俄比亚出生,245,65,160,income,CNY purchasing power; engine factor 3.5,0.0,5064.94,10254.23,15982.4,22405.04
+埃塞俄比亚出生,245,65,160,monthly_income,CNY purchasing power; engine factor 3.5,0.0,422.08,854.52,1331.87,1867.09
+埃塞俄比亚出生,245,65,160,money,CNY purchasing power; engine factor 3.5,-5111.98,8775.75,18626.91,30010.7,39602.92
+埃塞俄比亚出生,245,65,160,nw,CNY purchasing power; engine factor 3.5,4925.93,14936.75,26294.73,60651.13,102089.88
+刚果民主共和国出生,198,24,143,income,CNY purchasing power; engine factor 3.5,0.0,0.0,2538.9,3749.15,5505.0
+刚果民主共和国出生,198,24,143,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,211.58,312.43,458.75
+刚果民主共和国出生,198,24,143,money,CNY purchasing power; engine factor 3.5,-4652.37,-1047.13,-252.34,181.74,3019.61
+刚果民主共和国出生,198,24,143,nw,CNY purchasing power; engine factor 3.5,-4652.37,-1047.13,-252.34,181.74,3019.61
+刚果民主共和国出生,198,30,141,income,CNY purchasing power; engine factor 3.5,0.0,2067.24,3140.34,5016.29,7671.24
+刚果民主共和国出生,198,30,141,monthly_income,CNY purchasing power; engine factor 3.5,0.0,172.27,261.69,418.02,639.27
+刚果民主共和国出生,198,30,141,money,CNY purchasing power; engine factor 3.5,-11017.92,-3277.13,-883.26,0.0,1223.45
+刚果民主共和国出生,198,30,141,nw,CNY purchasing power; engine factor 3.5,-5107.83,-1518.28,-469.73,361.56,4826.44
+刚果民主共和国出生,198,35,138,income,CNY purchasing power; engine factor 3.5,0.0,2609.44,3539.81,4866.68,8977.2
+刚果民主共和国出生,198,35,138,monthly_income,CNY purchasing power; engine factor 3.5,0.0,217.45,294.98,405.56,748.1
+刚果民主共和国出生,198,35,138,money,CNY purchasing power; engine factor 3.5,-13967.68,-5495.68,-1579.37,-85.92,782.77
+刚果民主共和国出生,198,35,138,nw,CNY purchasing power; engine factor 3.5,-5982.8,-1734.09,-823.52,1637.94,8907.21
+刚果民主共和国出生,198,40,132,income,CNY purchasing power; engine factor 3.5,0.0,2978.51,4072.11,5734.57,10756.65
+刚果民主共和国出生,198,40,132,monthly_income,CNY purchasing power; engine factor 3.5,0.0,248.21,339.34,477.88,896.39
+刚果民主共和国出生,198,40,132,money,CNY purchasing power; engine factor 3.5,-14678.62,-7210.02,-2198.39,-1063.78,1561.84
+刚果民主共和国出生,198,40,132,nw,CNY purchasing power; engine factor 3.5,-5986.15,-2441.64,-1313.83,1835.02,10420.23
+刚果民主共和国出生,198,50,124,income,CNY purchasing power; engine factor 3.5,0.0,3977.83,5189.03,7873.44,14542.56
+刚果民主共和国出生,198,50,124,monthly_income,CNY purchasing power; engine factor 3.5,0.0,331.49,432.42,656.12,1211.88
+刚果民主共和国出生,198,50,124,money,CNY purchasing power; engine factor 3.5,-20986.31,-8502.69,-1881.39,0.0,2260.12
+刚果民主共和国出生,198,50,124,nw,CNY purchasing power; engine factor 3.5,-3990.93,-1926.03,-50.92,5578.72,27023.23
+刚果民主共和国出生,198,65,104,income,CNY purchasing power; engine factor 3.5,0.0,2010.25,5019.26,8422.4,13624.64
+刚果民主共和国出生,198,65,104,monthly_income,CNY purchasing power; engine factor 3.5,0.0,167.52,418.27,701.87,1135.39
+刚果民主共和国出生,198,65,104,money,CNY purchasing power; engine factor 3.5,-9925.6,495.23,6025.48,12990.02,30948.71
+刚果民主共和国出生,198,65,104,nw,CNY purchasing power; engine factor 3.5,-1256.65,2878.52,10855.32,28928.04,68036.58
+墨西哥出生,173,24,171,income,CNY purchasing power; engine factor 3.5,0.0,0.0,33124.44,52326.06,67690.41
+墨西哥出生,173,24,171,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2760.37,4360.5,5640.87
+墨西哥出生,173,24,171,money,CNY purchasing power; engine factor 3.5,-10287.39,-1346.64,8690.33,28515.64,49993.45
+墨西哥出生,173,24,171,nw,CNY purchasing power; engine factor 3.5,-10287.39,-1346.64,8690.33,28515.64,49993.45
+墨西哥出生,173,30,171,income,CNY purchasing power; engine factor 3.5,0.0,0.0,40408.71,64771.16,92287.6
+墨西哥出生,173,30,171,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,3367.39,5397.6,7690.63
+墨西哥出生,173,30,171,money,CNY purchasing power; engine factor 3.5,-92502.4,-14901.06,3414.91,35251.1,78152.6
+墨西哥出生,173,30,171,nw,CNY purchasing power; engine factor 3.5,-19609.31,-9028.68,23022.21,73823.56,145981.4
+墨西哥出生,173,35,168,income,CNY purchasing power; engine factor 3.5,0.0,0.0,46513.58,81542.49,107687.96
+墨西哥出生,173,35,168,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,3876.13,6795.21,8974.0
+墨西哥出生,173,35,168,money,CNY purchasing power; engine factor 3.5,-189717.26,-51867.11,-9560.84,33241.22,119425.96
+墨西哥出生,173,35,168,nw,CNY purchasing power; engine factor 3.5,-21045.69,-7167.34,35516.29,139902.01,248953.67
+墨西哥出生,173,40,166,income,CNY purchasing power; engine factor 3.5,0.0,24907.87,57105.13,98800.9,126870.09
+墨西哥出生,173,40,166,monthly_income,CNY purchasing power; engine factor 3.5,0.0,2075.66,4758.76,8233.41,10572.51
+墨西哥出生,173,40,166,money,CNY purchasing power; engine factor 3.5,-204882.99,-114002.41,-17784.26,32105.95,128784.48
+墨西哥出生,173,40,166,nw,CNY purchasing power; engine factor 3.5,-31871.36,-3735.66,70461.17,205275.68,373387.05
+墨西哥出生,173,50,163,income,CNY purchasing power; engine factor 3.5,0.0,40119.97,67723.75,121235.74,174310.84
+墨西哥出生,173,50,163,monthly_income,CNY purchasing power; engine factor 3.5,0.0,3343.33,5643.65,10102.98,14525.9
+墨西哥出生,173,50,163,money,CNY purchasing power; engine factor 3.5,-163375.67,-79551.06,-10070.0,69078.59,358696.1
+墨西哥出生,173,50,163,nw,CNY purchasing power; engine factor 3.5,-18134.33,5236.34,179431.4,393613.23,678849.29
+墨西哥出生,173,65,145,income,CNY purchasing power; engine factor 3.5,0.0,0.0,50876.2,101112.79,168982.72
+墨西哥出生,173,65,145,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,4239.68,8426.07,14081.89
+墨西哥出生,173,65,145,money,CNY purchasing power; engine factor 3.5,-30787.54,44378.16,150983.82,467482.75,1246622.03
+墨西哥出生,173,65,145,nw,CNY purchasing power; engine factor 3.5,35653.55,117452.35,443571.56,864290.9,1569045.19
+埃及出生,162,24,152,income,CNY purchasing power; engine factor 3.5,0.0,0.0,7940.32,29078.71,42404.8
+埃及出生,162,24,152,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,661.69,2423.23,3533.73
+埃及出生,162,24,152,money,CNY purchasing power; engine factor 3.5,-11258.5,-8438.59,1046.17,11659.9,29077.95
+埃及出生,162,24,152,nw,CNY purchasing power; engine factor 3.5,-11258.5,-8438.59,1046.17,11659.9,29077.95
+埃及出生,162,30,149,income,CNY purchasing power; engine factor 3.5,0.0,0.0,24560.48,50842.75,73337.28
+埃及出生,162,30,149,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2046.71,4236.9,6111.44
+埃及出生,162,30,149,money,CNY purchasing power; engine factor 3.5,-118058.04,-18994.52,-9498.99,7690.55,27912.5
+埃及出生,162,30,149,nw,CNY purchasing power; engine factor 3.5,-16192.33,-9498.99,4220.4,32483.59,79019.63
+埃及出生,162,35,148,income,CNY purchasing power; engine factor 3.5,0.0,0.0,29539.93,55944.95,85747.72
+埃及出生,162,35,148,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2461.66,4662.08,7145.64
+埃及出生,162,35,148,money,CNY purchasing power; engine factor 3.5,-120876.1,-61040.06,-10514.78,2611.98,20092.92
+埃及出生,162,35,148,nw,CNY purchasing power; engine factor 3.5,-25409.26,-10514.78,3422.51,75003.4,147665.45
+埃及出生,162,40,147,income,CNY purchasing power; engine factor 3.5,0.0,0.0,28923.67,60807.01,93831.85
+埃及出生,162,40,147,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2410.31,5067.25,7819.32
+埃及出生,162,40,147,money,CNY purchasing power; engine factor 3.5,-123698.41,-55545.79,-12155.8,4099.91,27445.79
+埃及出生,162,40,147,nw,CNY purchasing power; engine factor 3.5,-26947.76,-11915.01,9816.66,101180.85,201518.51
+埃及出生,162,50,146,income,CNY purchasing power; engine factor 3.5,0.0,0.0,14902.76,67229.33,120483.0
+埃及出生,162,50,146,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1241.9,5602.44,10040.25
+埃及出生,162,50,146,money,CNY purchasing power; engine factor 3.5,-139669.19,-68409.56,-13541.67,26345.02,151624.29
+埃及出生,162,50,146,nw,CNY purchasing power; engine factor 3.5,-39722.38,-14010.31,18303.8,163001.12,438888.79
+埃及出生,162,65,134,income,CNY purchasing power; engine factor 3.5,0.0,0.0,21202.23,39634.77,63403.64
+埃及出生,162,65,134,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1766.85,3302.9,5283.64
+埃及出生,162,65,134,money,CNY purchasing power; engine factor 3.5,-94399.77,-13913.52,58506.33,149933.99,204311.69
+埃及出生,162,65,134,nw,CNY purchasing power; engine factor 3.5,-18481.8,37093.14,145800.76,337168.93,562359.96
+菲律宾出生,144,24,142,income,CNY purchasing power; engine factor 3.5,0.0,11349.22,17578.09,26190.97,38224.68
+菲律宾出生,144,24,142,monthly_income,CNY purchasing power; engine factor 3.5,0.0,945.77,1464.84,2182.58,3185.39
+菲律宾出生,144,24,142,money,CNY purchasing power; engine factor 3.5,-4389.08,-403.9,1544.37,7826.72,22936.81
+菲律宾出生,144,24,142,nw,CNY purchasing power; engine factor 3.5,-4389.08,-403.9,1544.37,7826.72,22936.81
+菲律宾出生,144,30,141,income,CNY purchasing power; engine factor 3.5,0.0,0.0,18997.29,37321.35,51684.71
+菲律宾出生,144,30,141,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1583.11,3110.11,4307.06
+菲律宾出生,144,30,141,money,CNY purchasing power; engine factor 3.5,-39187.05,-8145.69,516.22,9353.89,27978.63
+菲律宾出生,144,30,141,nw,CNY purchasing power; engine factor 3.5,-9705.91,-5145.56,2736.91,20639.57,53307.66
+菲律宾出生,144,35,140,income,CNY purchasing power; engine factor 3.5,0.0,0.0,22185.32,32825.8,61406.44
+菲律宾出生,144,35,140,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1848.78,2735.48,5117.2
+菲律宾出生,144,35,140,money,CNY purchasing power; engine factor 3.5,-65962.15,-23711.07,-3695.28,7703.51,39181.52
+菲律宾出生,144,35,140,nw,CNY purchasing power; engine factor 3.5,-10400.92,-5476.7,4872.36,44097.63,88514.14
+菲律宾出生,144,40,140,income,CNY purchasing power; engine factor 3.5,0.0,14075.06,24668.91,40818.55,73562.57
+菲律宾出生,144,40,140,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1172.92,2055.74,3401.55,6130.21
+菲律宾出生,144,40,140,money,CNY purchasing power; engine factor 3.5,-84309.01,-43424.89,-6605.25,6041.91,43500.96
+菲律宾出生,144,40,140,nw,CNY purchasing power; engine factor 3.5,-11188.2,-5950.18,12412.08,76987.58,119375.46
+菲律宾出生,144,50,136,income,CNY purchasing power; engine factor 3.5,0.0,23371.73,36036.05,54433.43,94880.57
+菲律宾出生,144,50,136,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1947.64,3003.0,4536.12,7906.71
+菲律宾出生,144,50,136,money,CNY purchasing power; engine factor 3.5,-66500.96,-23281.69,-4348.3,32656.63,194939.56
+菲律宾出生,144,50,136,nw,CNY purchasing power; engine factor 3.5,-13852.74,-4014.21,44257.73,154589.58,390537.55
+菲律宾出生,144,65,118,income,CNY purchasing power; engine factor 3.5,0.0,0.0,16323.83,38857.96,61257.07
+菲律宾出生,144,65,118,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1360.32,3238.16,5104.76
+菲律宾出生,144,65,118,money,CNY purchasing power; engine factor 3.5,-8447.0,22099.86,83556.27,168136.82,404730.76
+菲律宾出生,144,65,118,nw,CNY purchasing power; engine factor 3.5,6959.32,52329.11,156301.87,343484.3,614110.93
+土耳其出生,110,24,104,income,CNY purchasing power; engine factor 3.5,0.0,0.0,11717.15,66644.73,78996.09
+土耳其出生,110,24,104,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,976.43,5553.73,6583.01
+土耳其出生,110,24,104,money,CNY purchasing power; engine factor 3.5,-22704.58,-14392.65,3722.93,21190.94,60333.66
+土耳其出生,110,24,104,nw,CNY purchasing power; engine factor 3.5,-22704.58,-14392.65,3722.93,21190.94,60333.66
+土耳其出生,110,30,102,income,CNY purchasing power; engine factor 3.5,0.0,0.0,73800.87,90397.92,138917.75
+土耳其出生,110,30,102,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,6150.07,7533.16,11576.48
+土耳其出生,110,30,102,money,CNY purchasing power; engine factor 3.5,-92073.86,-17575.74,16503.63,51167.14,109351.23
+土耳其出生,110,30,102,nw,CNY purchasing power; engine factor 3.5,-19775.72,-6472.4,29856.04,83160.56,172103.12
+土耳其出生,110,35,101,income,CNY purchasing power; engine factor 3.5,0.0,0.0,75486.6,106904.89,166337.0
+土耳其出生,110,35,101,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,6290.55,8908.74,13861.42
+土耳其出生,110,35,101,money,CNY purchasing power; engine factor 3.5,-225374.35,-103959.5,2775.07,60441.74,111211.53
+土耳其出生,110,35,101,nw,CNY purchasing power; engine factor 3.5,-38189.95,-15807.39,55712.96,140583.04,285767.8
+土耳其出生,110,40,100,income,CNY purchasing power; engine factor 3.5,0.0,0.0,87017.46,130991.47,190452.57
+土耳其出生,110,40,100,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,7251.45,10915.96,15871.05
+土耳其出生,110,40,100,money,CNY purchasing power; engine factor 3.5,-297180.62,-147252.85,-12718.37,60352.72,204874.27
+土耳其出生,110,40,100,nw,CNY purchasing power; engine factor 3.5,-48007.77,-1196.72,107084.31,274013.5,417712.62
+土耳其出生,110,50,98,income,CNY purchasing power; engine factor 3.5,0.0,0.0,96989.53,164330.61,219269.62
+土耳其出生,110,50,98,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,8082.46,13694.22,18272.47
+土耳其出生,110,50,98,money,CNY purchasing power; engine factor 3.5,-206242.03,-57144.87,4121.13,222588.2,618324.86
+土耳其出生,110,50,98,nw,CNY purchasing power; engine factor 3.5,-51315.82,-14399.35,167275.98,528581.85,916286.14
+土耳其出生,110,65,92,income,CNY purchasing power; engine factor 3.5,0.0,0.0,108607.8,163645.67,222678.76
+土耳其出生,110,65,92,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,9050.65,13637.14,18556.56
+土耳其出生,110,65,92,money,CNY purchasing power; engine factor 3.5,-7339.9,104051.47,286032.88,828557.18,2123720.8
+土耳其出生,110,65,92,nw,CNY purchasing power; engine factor 3.5,52641.05,164015.82,478000.98,1089529.17,2602137.3
+坦桑尼亚出生,106,24,90,income,CNY purchasing power; engine factor 3.5,0.0,5473.28,7437.61,9296.48,11949.01
+坦桑尼亚出生,106,24,90,monthly_income,CNY purchasing power; engine factor 3.5,0.0,456.11,619.8,774.71,995.75
+坦桑尼亚出生,106,24,90,money,CNY purchasing power; engine factor 3.5,-1874.81,-702.64,386.84,1749.54,7015.95
+坦桑尼亚出生,106,24,90,nw,CNY purchasing power; engine factor 3.5,-1874.81,-702.64,386.84,1749.54,7015.95
+坦桑尼亚出生,106,30,88,income,CNY purchasing power; engine factor 3.5,0.0,6793.3,9536.76,11819.56,15800.65
+坦桑尼亚出生,106,30,88,monthly_income,CNY purchasing power; engine factor 3.5,0.0,566.11,794.73,984.96,1316.72
+坦桑尼亚出生,106,30,88,money,CNY purchasing power; engine factor 3.5,-14076.13,-3484.4,-160.23,1658.71,7996.73
+坦桑尼亚出生,106,30,88,nw,CNY purchasing power; engine factor 3.5,-2321.79,-761.28,797.95,11008.06,19543.21
+坦桑尼亚出生,106,35,86,income,CNY purchasing power; engine factor 3.5,2735.62,7987.32,11328.47,14491.66,22324.62
+坦桑尼亚出生,106,35,86,monthly_income,CNY purchasing power; engine factor 3.5,227.97,665.61,944.04,1207.64,1860.39
+坦桑尼亚出生,106,35,86,money,CNY purchasing power; engine factor 3.5,-29303.89,-11334.23,-2113.35,0.0,7250.19
+坦桑尼亚出生,106,35,86,nw,CNY purchasing power; engine factor 3.5,-3809.29,-1832.33,274.8,15096.49,30144.49
+坦桑尼亚出生,106,40,85,income,CNY purchasing power; engine factor 3.5,6298.47,9667.16,12557.75,16067.3,25718.69
+坦桑尼亚出生,106,40,85,monthly_income,CNY purchasing power; engine factor 3.5,524.87,805.6,1046.48,1338.94,2143.22
+坦桑尼亚出生,106,40,85,money,CNY purchasing power; engine factor 3.5,-26216.14,-11043.31,-2014.12,1167.16,13556.62
+坦桑尼亚出生,106,40,85,nw,CNY purchasing power; engine factor 3.5,-4006.34,-889.37,3637.67,19925.38,32332.42
+坦桑尼亚出生,106,50,82,income,CNY purchasing power; engine factor 3.5,8697.24,10149.75,15739.46,19441.3,33653.47
+坦桑尼亚出生,106,50,82,monthly_income,CNY purchasing power; engine factor 3.5,724.77,845.81,1311.62,1620.11,2804.46
+坦桑尼亚出生,106,50,82,money,CNY purchasing power; engine factor 3.5,-19238.05,-6873.19,5.22,8077.49,57883.88
+坦桑尼亚出生,106,50,82,nw,CNY purchasing power; engine factor 3.5,-4713.04,-831.62,5714.0,40292.24,90219.14
+坦桑尼亚出生,106,65,73,income,CNY purchasing power; engine factor 3.5,0.0,4574.83,10743.61,16210.9,24264.37
+坦桑尼亚出生,106,65,73,monthly_income,CNY purchasing power; engine factor 3.5,0.0,381.24,895.3,1350.91,2022.03
+坦桑尼亚出生,106,65,73,money,CNY purchasing power; engine factor 3.5,-4044.63,9704.25,25704.4,43248.79,144668.33
+坦桑尼亚出生,106,65,73,nw,CNY purchasing power; engine factor 3.5,9762.22,26173.26,50619.6,98285.25,241691.05
+日本出生,104,24,102,income,CNY purchasing power; engine factor 3.5,65861.77,76844.81,96560.67,132092.36,150825.26
+日本出生,104,24,102,monthly_income,CNY purchasing power; engine factor 3.5,5488.48,6403.73,8046.72,11007.7,12568.77
+日本出生,104,24,102,money,CNY purchasing power; engine factor 3.5,28.36,14147.23,31150.01,68558.02,115453.16
+日本出生,104,24,102,nw,CNY purchasing power; engine factor 3.5,28.36,14147.23,31150.01,68558.02,115453.16
+日本出生,104,30,102,income,CNY purchasing power; engine factor 3.5,82767.43,91163.68,123624.98,161142.6,194615.04
+日本出生,104,30,102,monthly_income,CNY purchasing power; engine factor 3.5,6897.29,7596.97,10302.08,13428.55,16217.92
+日本出生,104,30,102,money,CNY purchasing power; engine factor 3.5,-6174.28,29266.84,76081.71,156871.68,234615.78
+日本出生,104,30,102,nw,CNY purchasing power; engine factor 3.5,18327.5,43852.47,99242.36,205851.75,298778.34
+日本出生,104,35,101,income,CNY purchasing power; engine factor 3.5,54475.91,107588.74,142364.53,187956.21,219371.97
+日本出生,104,35,101,monthly_income,CNY purchasing power; engine factor 3.5,4539.66,8965.73,11863.71,15663.02,18281.0
+日本出生,104,35,101,money,CNY purchasing power; engine factor 3.5,-305008.28,6205.94,81763.56,166237.94,339391.69
+日本出生,104,35,101,nw,CNY purchasing power; engine factor 3.5,12766.07,67291.84,193907.2,487045.96,778666.65
+日本出生,104,40,101,income,CNY purchasing power; engine factor 3.5,78130.97,108424.41,142280.89,200935.4,233313.18
+日本出生,104,40,101,monthly_income,CNY purchasing power; engine factor 3.5,6510.91,9035.37,11856.74,16744.62,19442.77
+日本出生,104,40,101,money,CNY purchasing power; engine factor 3.5,-669707.11,-209329.81,42825.84,226856.45,363675.91
+日本出生,104,40,101,nw,CNY purchasing power; engine factor 3.5,29895.47,145040.87,363675.91,698269.44,1061474.58
+日本出生,104,50,99,income,CNY purchasing power; engine factor 3.5,100046.94,137689.47,179906.45,215451.98,293966.54
+日本出生,104,50,99,monthly_income,CNY purchasing power; engine factor 3.5,8337.25,11474.12,14992.2,17954.33,24497.21
+日本出生,104,50,99,money,CNY purchasing power; engine factor 3.5,-555262.11,-262104.62,59229.5,320315.49,616145.07
+日本出生,104,50,99,nw,CNY purchasing power; engine factor 3.5,87916.41,336484.15,692057.1,1110791.2,1677363.92
+日本出生,104,65,98,income,CNY purchasing power; engine factor 3.5,36499.81,53122.75,99667.92,151572.79,216739.51
+日本出生,104,65,98,monthly_income,CNY purchasing power; engine factor 3.5,3041.65,4426.9,8305.66,12631.07,18061.63
+日本出生,104,65,98,money,CNY purchasing power; engine factor 3.5,-189127.13,83730.59,560311.23,1477587.58,2849411.26
+日本出生,104,65,98,nw,CNY purchasing power; engine factor 3.5,321540.88,735276.42,1428998.69,2542616.36,3811698.11
+家境 Q1,2072,24,1750,income,CNY purchasing power; engine factor 3.5,0.0,0.0,15871.07,31218.26,68050.62
+家境 Q1,2072,24,1750,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1322.59,2601.52,5670.88
+家境 Q1,2072,24,1750,money,CNY purchasing power; engine factor 3.5,-13163.14,-4574.5,0.0,6381.48,29069.6
+家境 Q1,2072,24,1750,nw,CNY purchasing power; engine factor 3.5,-12879.8,-4536.62,0.0,6500.32,29502.77
+家境 Q1,2072,30,1728,income,CNY purchasing power; engine factor 3.5,0.0,0.0,20201.79,42226.47,94154.25
+家境 Q1,2072,30,1728,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1683.48,3518.87,7846.19
+家境 Q1,2072,30,1728,money,CNY purchasing power; engine factor 3.5,-20932.78,-7076.95,-1164.92,8705.07,71965.51
+家境 Q1,2072,30,1728,nw,CNY purchasing power; engine factor 3.5,-11672.76,-5354.84,-138.09,15356.23,120152.35
+家境 Q1,2072,35,1709,income,CNY purchasing power; engine factor 3.5,0.0,0.0,22824.98,49260.87,115415.65
+家境 Q1,2072,35,1709,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1902.08,4105.07,9617.97
+家境 Q1,2072,35,1709,money,CNY purchasing power; engine factor 3.5,-44890.34,-9466.23,-2421.49,6166.04,93044.7
+家境 Q1,2072,35,1709,nw,CNY purchasing power; engine factor 3.5,-14458.15,-6112.21,-311.45,30417.14,214264.13
+家境 Q1,2072,40,1692,income,CNY purchasing power; engine factor 3.5,0.0,0.0,25374.68,54530.07,126632.93
+家境 Q1,2072,40,1692,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2114.56,4544.17,10552.74
+家境 Q1,2072,40,1692,money,CNY purchasing power; engine factor 3.5,-67876.77,-13817.65,-3865.6,4938.01,114996.14
+家境 Q1,2072,40,1692,nw,CNY purchasing power; engine factor 3.5,-18565.14,-8298.16,-910.49,45393.24,344058.48
+家境 Q1,2072,50,1627,income,CNY purchasing power; engine factor 3.5,0.0,4569.82,34878.78,74859.31,156019.45
+家境 Q1,2072,50,1627,monthly_income,CNY purchasing power; engine factor 3.5,0.0,380.82,2906.57,6238.28,13001.62
+家境 Q1,2072,50,1627,money,CNY purchasing power; engine factor 3.5,-127422.89,-19117.66,-2721.54,14547.68,203472.41
+家境 Q1,2072,50,1627,nw,CNY purchasing power; engine factor 3.5,-23434.73,-8159.64,1509.75,120094.05,684496.26
+家境 Q1,2072,65,1459,income,CNY purchasing power; engine factor 3.5,0.0,0.0,25310.35,72400.83,154220.17
+家境 Q1,2072,65,1459,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2109.2,6033.4,12851.68
+家境 Q1,2072,65,1459,money,CNY purchasing power; engine factor 3.5,-49286.95,2768.04,36617.45,138540.41,790380.07
+家境 Q1,2072,65,1459,nw,CNY purchasing power; engine factor 3.5,-7224.68,13982.34,63696.55,365118.17,1462271.6
+家境 Q2,1959,24,1702,income,CNY purchasing power; engine factor 3.5,0.0,0.0,15875.68,34098.38,79216.84
+家境 Q2,1959,24,1702,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1322.97,2841.53,6601.4
+家境 Q2,1959,24,1702,money,CNY purchasing power; engine factor 3.5,-13330.38,-4436.82,186.13,8079.49,30959.58
+家境 Q2,1959,24,1702,nw,CNY purchasing power; engine factor 3.5,-13071.1,-4436.82,256.07,8322.0,32777.7
+家境 Q2,1959,30,1681,income,CNY purchasing power; engine factor 3.5,0.0,0.0,20011.34,46383.01,105475.67
+家境 Q2,1959,30,1681,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1667.61,3865.25,8789.64
+家境 Q2,1959,30,1681,money,CNY purchasing power; engine factor 3.5,-20647.89,-6703.56,-413.31,12659.05,87840.61
+家境 Q2,1959,30,1681,nw,CNY purchasing power; engine factor 3.5,-11833.18,-5231.19,0.0,19567.43,130389.77
+家境 Q2,1959,35,1660,income,CNY purchasing power; engine factor 3.5,0.0,0.0,22758.75,52638.96,122688.88
+家境 Q2,1959,35,1660,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1896.56,4386.58,10224.07
+家境 Q2,1959,35,1660,money,CNY purchasing power; engine factor 3.5,-54162.03,-9704.26,-1729.02,8658.43,127577.76
+家境 Q2,1959,35,1660,nw,CNY purchasing power; engine factor 3.5,-12291.25,-5862.17,0.0,42533.15,242511.17
+家境 Q2,1959,40,1643,income,CNY purchasing power; engine factor 3.5,0.0,0.0,25113.56,60391.05,143076.55
+家境 Q2,1959,40,1643,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2092.8,5032.59,11923.05
+家境 Q2,1959,40,1643,money,CNY purchasing power; engine factor 3.5,-83340.52,-12707.91,-2975.32,9599.28,142136.13
+家境 Q2,1959,40,1643,nw,CNY purchasing power; engine factor 3.5,-14125.37,-6558.29,0.0,69689.15,388230.77
+家境 Q2,1959,50,1583,income,CNY purchasing power; engine factor 3.5,0.0,2336.29,34640.76,82969.35,186792.77
+家境 Q2,1959,50,1583,monthly_income,CNY purchasing power; engine factor 3.5,0.0,194.69,2886.73,6914.11,15566.06
+家境 Q2,1959,50,1583,money,CNY purchasing power; engine factor 3.5,-124938.09,-23554.26,-2806.65,18405.37,241816.07
+家境 Q2,1959,50,1583,nw,CNY purchasing power; engine factor 3.5,-22014.61,-7891.11,4934.99,164089.35,754308.78
+家境 Q2,1959,65,1421,income,CNY purchasing power; engine factor 3.5,0.0,0.0,27023.33,76026.53,167962.48
+家境 Q2,1959,65,1421,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2251.94,6335.54,13996.87
+家境 Q2,1959,65,1421,money,CNY purchasing power; engine factor 3.5,-39877.8,4584.92,41168.11,156985.8,867430.49
+家境 Q2,1959,65,1421,nw,CNY purchasing power; engine factor 3.5,-2822.49,16643.6,74474.26,420477.41,1532981.64
+家境 Q3,1951,24,1788,income,CNY purchasing power; engine factor 3.5,0.0,0.0,16542.01,37811.93,83902.66
+家境 Q3,1951,24,1788,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1378.5,3150.99,6991.89
+家境 Q3,1951,24,1788,money,CNY purchasing power; engine factor 3.5,-8721.68,-3513.71,1238.56,13110.46,46472.78
+家境 Q3,1951,24,1788,nw,CNY purchasing power; engine factor 3.5,-8438.59,-3396.11,1303.13,13330.93,47533.35
+家境 Q3,1951,30,1767,income,CNY purchasing power; engine factor 3.5,0.0,0.0,21858.79,51976.07,113657.52
+家境 Q3,1951,30,1767,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1821.57,4331.34,9471.46
+家境 Q3,1951,30,1767,money,CNY purchasing power; engine factor 3.5,-45445.15,-7569.29,-399.79,18223.58,113169.9
+家境 Q3,1951,30,1767,nw,CNY purchasing power; engine factor 3.5,-9498.99,-3992.77,2591.78,48856.2,180830.39
+家境 Q3,1951,35,1751,income,CNY purchasing power; engine factor 3.5,0.0,0.0,25824.48,60569.82,133540.83
+家境 Q3,1951,35,1751,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2152.04,5047.49,11128.4
+家境 Q3,1951,35,1751,money,CNY purchasing power; engine factor 3.5,-82966.72,-17437.53,-3012.81,12009.55,148548.2
+家境 Q3,1951,35,1751,nw,CNY purchasing power; engine factor 3.5,-10311.48,-4259.34,5321.6,87805.63,321616.48
+家境 Q3,1951,40,1730,income,CNY purchasing power; engine factor 3.5,0.0,0.0,28529.76,71423.17,149024.07
+家境 Q3,1951,40,1730,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2377.48,5951.93,12418.67
+家境 Q3,1951,40,1730,money,CNY purchasing power; engine factor 3.5,-115018.36,-35086.68,-4660.39,7229.7,186343.49
+家境 Q3,1951,40,1730,nw,CNY purchasing power; engine factor 3.5,-12281.21,-3942.89,8360.76,140194.18,534966.88
+家境 Q3,1951,50,1686,income,CNY purchasing power; engine factor 3.5,0.0,4327.45,37944.1,90737.96,181071.27
+家境 Q3,1951,50,1686,monthly_income,CNY purchasing power; engine factor 3.5,0.0,360.62,3162.01,7561.5,15089.27
+家境 Q3,1951,50,1686,money,CNY purchasing power; engine factor 3.5,-131104.57,-36947.16,-3449.02,31317.23,419764.14
+家境 Q3,1951,50,1686,nw,CNY purchasing power; engine factor 3.5,-14666.83,-2766.66,24673.81,321810.38,982318.49
+家境 Q3,1951,65,1512,income,CNY purchasing power; engine factor 3.5,0.0,1978.11,28589.4,83399.31,179574.57
+家境 Q3,1951,65,1512,monthly_income,CNY purchasing power; engine factor 3.5,0.0,164.84,2382.45,6949.94,14964.55
+家境 Q3,1951,65,1512,money,CNY purchasing power; engine factor 3.5,-44087.97,6795.33,54683.73,285348.94,1347167.46
+家境 Q3,1951,65,1512,nw,CNY purchasing power; engine factor 3.5,2501.85,29984.41,128440.21,716003.37,2107410.02
+家境 Q4,1988,24,1845,income,CNY purchasing power; engine factor 3.5,0.0,0.0,19999.59,43620.89,85702.26
+家境 Q4,1988,24,1845,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1666.63,3635.07,7141.86
+家境 Q4,1988,24,1845,money,CNY purchasing power; engine factor 3.5,-4876.43,-134.26,4486.6,25972.73,69526.19
+家境 Q4,1988,24,1845,nw,CNY purchasing power; engine factor 3.5,-4735.71,-77.06,4573.33,26309.96,70749.0
+家境 Q4,1988,30,1825,income,CNY purchasing power; engine factor 3.5,0.0,0.0,27671.58,65491.45,125387.78
+家境 Q4,1988,30,1825,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2305.97,5457.62,10448.98
+家境 Q4,1988,30,1825,money,CNY purchasing power; engine factor 3.5,-92412.54,-16798.85,0.0,33749.25,150372.35
+家境 Q4,1988,30,1825,nw,CNY purchasing power; engine factor 3.5,-5294.44,0.0,19160.8,92185.53,246058.06
+家境 Q4,1988,35,1811,income,CNY purchasing power; engine factor 3.5,0.0,0.0,30196.6,74708.61,141791.11
+家境 Q4,1988,35,1811,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2516.38,6225.72,11815.93
+家境 Q4,1988,35,1811,money,CNY purchasing power; engine factor 3.5,-113082.33,-45290.83,-3768.43,24321.82,218367.23
+家境 Q4,1988,35,1811,nw,CNY purchasing power; engine factor 3.5,-7200.26,49.08,34794.48,152643.34,439410.95
+家境 Q4,1988,40,1790,income,CNY purchasing power; engine factor 3.5,0.0,0.0,35199.73,88613.68,158702.4
+家境 Q4,1988,40,1790,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2933.31,7384.47,13225.2
+家境 Q4,1988,40,1790,money,CNY purchasing power; engine factor 3.5,-151929.19,-63241.91,-8676.09,24787.95,303372.37
+家境 Q4,1988,40,1790,nw,CNY purchasing power; engine factor 3.5,-8695.82,1177.74,54522.88,250585.57,681175.97
+家境 Q4,1988,50,1741,income,CNY purchasing power; engine factor 3.5,0.0,6833.24,47587.69,110536.81,197919.53
+家境 Q4,1988,50,1741,monthly_income,CNY purchasing power; engine factor 3.5,0.0,569.44,3965.64,9211.4,16493.29
+家境 Q4,1988,50,1741,money,CNY purchasing power; engine factor 3.5,-146861.84,-55094.84,-3839.1,86440.97,615826.39
+家境 Q4,1988,50,1741,nw,CNY purchasing power; engine factor 3.5,-8038.17,10822.69,106919.63,504372.03,1230311.61
+家境 Q4,1988,65,1585,income,CNY purchasing power; engine factor 3.5,0.0,1943.18,34315.6,93673.36,190944.47
+家境 Q4,1988,65,1585,monthly_income,CNY purchasing power; engine factor 3.5,0.0,161.93,2859.63,7806.11,15912.04
+家境 Q4,1988,65,1585,money,CNY purchasing power; engine factor 3.5,-27713.46,12934.88,101139.67,533982.1,2198352.62
+家境 Q4,1988,65,1585,nw,CNY purchasing power; engine factor 3.5,14386.36,77851.82,271472.1,1094151.8,3079645.17
+家境 Q5,2030,24,1909,income,CNY purchasing power; engine factor 3.5,0.0,0.0,18599.25,45029.98,95954.3
+家境 Q5,2030,24,1909,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1549.94,3752.5,7996.19
+家境 Q5,2030,24,1909,money,CNY purchasing power; engine factor 3.5,-3933.17,0.0,8101.26,38861.01,110743.35
+家境 Q5,2030,24,1909,nw,CNY purchasing power; engine factor 3.5,-3889.76,0.0,8129.43,38937.61,110951.53
+家境 Q5,2030,30,1888,income,CNY purchasing power; engine factor 3.5,0.0,0.0,30534.2,67417.52,131690.18
+家境 Q5,2030,30,1888,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2544.52,5618.13,10974.18
+家境 Q5,2030,30,1888,money,CNY purchasing power; engine factor 3.5,-95478.13,-24190.17,989.01,49303.14,200269.17
+家境 Q5,2030,30,1888,nw,CNY purchasing power; engine factor 3.5,-3800.86,4530.6,34664.78,112332.8,338781.47
+家境 Q5,2030,35,1878,income,CNY purchasing power; engine factor 3.5,0.0,2275.19,33886.99,82063.88,159344.14
+家境 Q5,2030,35,1878,monthly_income,CNY purchasing power; engine factor 3.5,0.0,189.6,2823.92,6838.66,13278.68
+家境 Q5,2030,35,1878,money,CNY purchasing power; engine factor 3.5,-122697.06,-57245.19,-5838.45,48730.97,287129.76
+家境 Q5,2030,35,1878,nw,CNY purchasing power; engine factor 3.5,-3090.72,11738.69,62784.64,211257.19,614215.49
+家境 Q5,2030,40,1857,income,CNY purchasing power; engine factor 3.5,0.0,4434.78,40559.83,94953.12,178394.24
+家境 Q5,2030,40,1857,monthly_income,CNY purchasing power; engine factor 3.5,0.0,369.56,3379.99,7912.76,14866.19
+家境 Q5,2030,40,1857,money,CNY purchasing power; engine factor 3.5,-149649.54,-71450.19,-8864.66,54509.45,426972.45
+家境 Q5,2030,40,1857,nw,CNY purchasing power; engine factor 3.5,-2450.85,20597.52,90580.35,349596.26,973615.64
+家境 Q5,2030,50,1819,income,CNY purchasing power; engine factor 3.5,0.0,9307.2,54586.42,116090.78,206948.35
+家境 Q5,2030,50,1819,monthly_income,CNY purchasing power; engine factor 3.5,0.0,775.6,4548.87,9674.23,17245.7
+家境 Q5,2030,50,1819,money,CNY purchasing power; engine factor 3.5,-135139.35,-51326.43,422.77,178887.5,1007446.99
+家境 Q5,2030,50,1819,nw,CNY purchasing power; engine factor 3.5,0.0,38141.59,154214.73,680977.21,1873614.87
+家境 Q5,2030,65,1675,income,CNY purchasing power; engine factor 3.5,0.0,0.0,29122.48,95344.16,194648.05
+家境 Q5,2030,65,1675,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2426.87,7945.35,16220.67
+家境 Q5,2030,65,1675,money,CNY purchasing power; engine factor 3.5,-20641.24,21309.93,132254.32,960258.18,3485863.83
+家境 Q5,2030,65,1675,nw,CNY purchasing power; engine factor 3.5,33749.94,117760.4,374216.23,1525196.39,4447256.4
+印度 Q1,478,24,395,income,CNY purchasing power; engine factor 3.5,0.0,0.0,15753.89,21292.68,26117.07
+印度 Q1,478,24,395,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1312.82,1774.39,2176.42
+印度 Q1,478,24,395,money,CNY purchasing power; engine factor 3.5,-15722.45,-6764.02,-4436.82,2343.96,6894.44
+印度 Q1,478,24,395,nw,CNY purchasing power; engine factor 3.5,-15722.45,-6764.02,-4436.82,2343.96,6894.44
+印度 Q1,478,30,390,income,CNY purchasing power; engine factor 3.5,0.0,0.0,19084.24,25290.39,33153.74
+印度 Q1,478,30,390,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1590.35,2107.53,2762.81
+印度 Q1,478,30,390,money,CNY purchasing power; engine factor 3.5,-17813.67,-9534.31,-5231.19,0.0,4834.92
+印度 Q1,478,30,390,nw,CNY purchasing power; engine factor 3.5,-15532.88,-9310.36,-5231.19,0.0,6277.53
+印度 Q1,478,35,387,income,CNY purchasing power; engine factor 3.5,0.0,0.0,20820.43,29099.55,36895.8
+印度 Q1,478,35,387,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1735.04,2424.96,3074.65
+印度 Q1,478,35,387,money,CNY purchasing power; engine factor 3.5,-17501.49,-8531.22,-5862.17,0.0,5300.66
+印度 Q1,478,35,387,nw,CNY purchasing power; engine factor 3.5,-14893.91,-8041.43,-5862.17,0.0,9598.67
+印度 Q1,478,40,385,income,CNY purchasing power; engine factor 3.5,0.0,0.0,23021.0,33976.34,42611.03
+印度 Q1,478,40,385,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1918.42,2831.36,3550.92
+印度 Q1,478,40,385,money,CNY purchasing power; engine factor 3.5,-27607.09,-12200.63,-6558.29,0.0,3057.84
+印度 Q1,478,40,385,nw,CNY purchasing power; engine factor 3.5,-18358.78,-11262.6,-6558.29,0.0,8462.31
+印度 Q1,478,50,370,income,CNY purchasing power; engine factor 3.5,0.0,0.0,28168.07,43492.96,55042.3
+印度 Q1,478,50,370,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2347.34,3624.41,4586.86
+印度 Q1,478,50,370,money,CNY purchasing power; engine factor 3.5,-48838.93,-17110.23,-7494.65,2351.69,12498.64
+印度 Q1,478,50,370,nw,CNY purchasing power; engine factor 3.5,-35942.79,-14571.32,-6617.74,4035.43,19839.98
+印度 Q1,478,65,327,income,CNY purchasing power; engine factor 3.5,0.0,0.0,14827.98,42208.67,64825.81
+印度 Q1,478,65,327,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1235.67,3517.39,5402.15
+印度 Q1,478,65,327,money,CNY purchasing power; engine factor 3.5,-30409.18,6651.72,34910.15,71188.42,107707.52
+印度 Q1,478,65,327,nw,CNY purchasing power; engine factor 3.5,-18357.55,11505.6,37377.96,78528.12,116649.97
+印度 Q5,431,24,410,income,CNY purchasing power; engine factor 3.5,0.0,0.0,19255.35,32447.11,42359.45
+印度 Q5,431,24,410,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1604.61,2703.93,3529.95
+印度 Q5,431,24,410,money,CNY purchasing power; engine factor 3.5,-8745.9,-2799.01,3965.08,16182.24,32934.59
+印度 Q5,431,24,410,nw,CNY purchasing power; engine factor 3.5,-8745.9,-2799.01,3965.08,16182.24,32934.59
+印度 Q5,431,30,407,income,CNY purchasing power; engine factor 3.5,0.0,0.0,24419.84,43985.86,58541.86
+印度 Q5,431,30,407,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2034.99,3665.49,4878.49
+印度 Q5,431,30,407,money,CNY purchasing power; engine factor 3.5,-95610.54,-49995.13,-5231.19,12808.54,41747.13
+印度 Q5,431,30,407,nw,CNY purchasing power; engine factor 3.5,-5377.45,1485.6,23758.72,52175.42,81167.16
+印度 Q5,431,35,405,income,CNY purchasing power; engine factor 3.5,0.0,0.0,29290.94,50484.69,70786.89
+印度 Q5,431,35,405,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2440.91,4207.06,5898.91
+印度 Q5,431,35,405,money,CNY purchasing power; engine factor 3.5,-98766.82,-72959.78,-23338.5,5135.22,53969.47
+印度 Q5,431,35,405,nw,CNY purchasing power; engine factor 3.5,-5862.17,6343.9,48133.86,82612.67,133423.21
+印度 Q5,431,40,404,income,CNY purchasing power; engine factor 3.5,0.0,0.0,31303.97,58146.62,80340.84
+印度 Q5,431,40,404,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,2608.66,4845.55,6695.07
+印度 Q5,431,40,404,money,CNY purchasing power; engine factor 3.5,-110556.69,-83009.52,-39169.11,2638.94,66181.44
+印度 Q5,431,40,404,nw,CNY purchasing power; engine factor 3.5,-6558.29,27647.95,68904.34,112667.29,186842.15
+印度 Q5,431,50,394,income,CNY purchasing power; engine factor 3.5,0.0,0.0,40621.78,72078.45,101294.3
+印度 Q5,431,50,394,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,3385.15,6006.54,8441.19
+印度 Q5,431,50,394,money,CNY purchasing power; engine factor 3.5,-118432.55,-78383.03,-22561.74,27918.39,145173.16
+印度 Q5,431,50,394,nw,CNY purchasing power; engine factor 3.5,-8159.64,35060.33,106540.05,183781.95,329969.22
+印度 Q5,431,65,358,income,CNY purchasing power; engine factor 3.5,0.0,0.0,0.0,43735.72,86459.3
+印度 Q5,431,65,358,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,0.0,3644.64,7204.94
+印度 Q5,431,65,358,money,CNY purchasing power; engine factor 3.5,-37131.01,13105.31,88181.15,213072.27,530883.87
+印度 Q5,431,65,358,nw,CNY purchasing power; engine factor 3.5,64409.82,126094.58,257933.29,430925.97,764276.8
+中国 Q1,246,24,231,income,CNY purchasing power; engine factor 3.5,0.0,28426.74,35843.18,47581.89,64501.68
+中国 Q1,246,24,231,monthly_income,CNY purchasing power; engine factor 3.5,0.0,2368.89,2986.93,3965.16,5375.14
+中国 Q1,246,24,231,money,CNY purchasing power; engine factor 3.5,-4394.64,8742.63,23783.38,43323.03,79868.47
+中国 Q1,246,24,231,nw,CNY purchasing power; engine factor 3.5,-3480.6,9288.56,24425.37,44035.98,82716.84
+中国 Q1,246,30,230,income,CNY purchasing power; engine factor 3.5,21200.1,34420.27,47118.25,61254.38,85401.51
+中国 Q1,246,30,230,monthly_income,CNY purchasing power; engine factor 3.5,1766.68,2868.36,3926.52,5104.53,7116.79
+中国 Q1,246,30,230,money,CNY purchasing power; engine factor 3.5,-160337.98,-90881.02,32479.07,98173.89,182685.07
+中国 Q1,246,30,230,nw,CNY purchasing power; engine factor 3.5,14172.68,48641.17,116707.1,183399.22,272692.67
+中国 Q1,246,35,228,income,CNY purchasing power; engine factor 3.5,27955.78,37053.25,55045.49,73013.49,110818.79
+中国 Q1,246,35,228,monthly_income,CNY purchasing power; engine factor 3.5,2329.65,3087.77,4587.12,6084.46,9234.9
+中国 Q1,246,35,228,money,CNY purchasing power; engine factor 3.5,-206819.04,-125876.74,-2529.43,124637.22,277215.51
+中国 Q1,246,35,228,nw,CNY purchasing power; engine factor 3.5,48487.64,112232.17,205973.75,319236.35,459855.72
+中国 Q1,246,40,226,income,CNY purchasing power; engine factor 3.5,0.0,40755.73,55640.18,83421.84,120652.76
+中国 Q1,246,40,226,monthly_income,CNY purchasing power; engine factor 3.5,0.0,3396.31,4636.68,6951.82,10054.4
+中国 Q1,246,40,226,money,CNY purchasing power; engine factor 3.5,-245029.95,-125219.82,43597.47,200759.45,400119.55
+中国 Q1,246,40,226,nw,CNY purchasing power; engine factor 3.5,69304.37,152891.41,323799.29,490715.31,761560.55
+中国 Q1,246,50,222,income,CNY purchasing power; engine factor 3.5,36294.8,49806.38,74743.09,111125.07,149765.48
+中国 Q1,246,50,222,monthly_income,CNY purchasing power; engine factor 3.5,3024.57,4150.53,6228.59,9260.42,12480.46
+中国 Q1,246,50,222,money,CNY purchasing power; engine factor 3.5,-249320.63,-113599.51,127595.23,413722.25,959394.36
+中国 Q1,246,50,222,nw,CNY purchasing power; engine factor 3.5,105585.96,280033.34,538754.12,929851.29,1636094.43
+中国 Q1,246,65,205,income,CNY purchasing power; engine factor 3.5,5887.29,38334.54,72614.56,118984.47,172630.06
+中国 Q1,246,65,205,monthly_income,CNY purchasing power; engine factor 3.5,490.61,3194.55,6051.21,9915.37,14385.84
+中国 Q1,246,65,205,money,CNY purchasing power; engine factor 3.5,-67174.99,180083.09,542201.17,1190141.46,2754325.61
+中国 Q1,246,65,205,nw,CNY purchasing power; engine factor 3.5,234192.9,553544.78,1019129.03,1857202.55,3854109.75
+中国 Q5,239,24,229,income,CNY purchasing power; engine factor 3.5,0.0,39290.88,55165.59,75140.81,101119.23
+中国 Q5,239,24,229,monthly_income,CNY purchasing power; engine factor 3.5,0.0,3274.24,4597.13,6261.73,8426.6
+中国 Q5,239,24,229,money,CNY purchasing power; engine factor 3.5,0.0,28747.81,81933.44,124431.01,161239.74
+中国 Q5,239,24,229,nw,CNY purchasing power; engine factor 3.5,0.0,28750.89,83766.77,124982.01,162830.13
+中国 Q5,239,30,229,income,CNY purchasing power; engine factor 3.5,0.0,50306.3,73539.64,96494.79,125709.07
+中国 Q5,239,30,229,monthly_income,CNY purchasing power; engine factor 3.5,0.0,4192.19,6128.3,8041.23,10475.76
+中国 Q5,239,30,229,money,CNY purchasing power; engine factor 3.5,-71187.99,72916.0,163487.85,291148.93,413930.55
+中国 Q5,239,30,229,nw,CNY purchasing power; engine factor 3.5,112349.08,157761.31,270483.95,428255.75,636314.41
+中国 Q5,239,35,228,income,CNY purchasing power; engine factor 3.5,0.0,59988.46,94532.02,121402.57,161081.47
+中国 Q5,239,35,228,monthly_income,CNY purchasing power; engine factor 3.5,0.0,4999.04,7877.67,10116.88,13423.46
+中国 Q5,239,35,228,money,CNY purchasing power; engine factor 3.5,-231362.09,60989.07,224722.34,433539.88,762389.73
+中国 Q5,239,35,228,nw,CNY purchasing power; engine factor 3.5,173333.37,300375.72,527208.71,764477.24,1166460.56
+中国 Q5,239,40,227,income,CNY purchasing power; engine factor 3.5,34212.42,72326.58,101114.51,136942.91,187047.19
+中国 Q5,239,40,227,monthly_income,CNY purchasing power; engine factor 3.5,2851.03,6027.21,8426.21,11411.91,15587.27
+中国 Q5,239,40,227,money,CNY purchasing power; engine factor 3.5,-344347.46,37986.11,310850.51,697174.64,1203001.72
+中国 Q5,239,40,227,nw,CNY purchasing power; engine factor 3.5,298422.92,541173.98,766710.77,1233431.0,1893859.7
+中国 Q5,239,50,225,income,CNY purchasing power; engine factor 3.5,51957.35,89620.88,128765.48,166252.82,223314.61
+中国 Q5,239,50,225,monthly_income,CNY purchasing power; engine factor 3.5,4329.78,7468.41,10730.46,13854.4,18609.55
+中国 Q5,239,50,225,money,CNY purchasing power; engine factor 3.5,-500737.16,59442.06,734961.24,1564114.02,2972825.1
+中国 Q5,239,50,225,nw,CNY purchasing power; engine factor 3.5,596952.8,1018293.87,1565087.8,2667783.92,4254166.05
+中国 Q5,239,65,214,income,CNY purchasing power; engine factor 3.5,27911.88,58078.22,106518.73,165817.16,258397.24
+中国 Q5,239,65,214,monthly_income,CNY purchasing power; engine factor 3.5,2325.99,4839.85,8876.56,13818.1,21533.1
+中国 Q5,239,65,214,money,CNY purchasing power; engine factor 3.5,328108.41,974102.15,2119841.61,4297799.17,7852353.19
+中国 Q5,239,65,214,nw,CNY purchasing power; engine factor 3.5,974502.2,1891325.53,3189522.65,5278222.4,9106034.21
+美国 Q1,54,24,53,income,CNY purchasing power; engine factor 3.5,64994.54,78513.99,99962.32,146520.59,182802.33
+美国 Q1,54,24,53,monthly_income,CNY purchasing power; engine factor 3.5,5416.21,6542.83,8330.19,12210.05,15233.53
+美国 Q1,54,24,53,money,CNY purchasing power; engine factor 3.5,-57401.15,-18851.64,6696.72,23506.68,48917.38
+美国 Q1,54,24,53,nw,CNY purchasing power; engine factor 3.5,-57401.15,-18851.64,6696.72,23506.68,48917.38
+美国 Q1,54,30,53,income,CNY purchasing power; engine factor 3.5,80237.36,99762.6,143095.36,187782.21,233551.24
+美国 Q1,54,30,53,monthly_income,CNY purchasing power; engine factor 3.5,6686.45,8313.55,11924.61,15648.52,19462.6
+美国 Q1,54,30,53,money,CNY purchasing power; engine factor 3.5,-85993.53,-1006.47,27591.9,96715.18,185854.75
+美国 Q1,54,30,53,nw,CNY purchasing power; engine factor 3.5,-77892.05,-781.6,28526.44,101571.57,231384.79
+美国 Q1,54,35,53,income,CNY purchasing power; engine factor 3.5,87444.18,117595.66,171540.67,207992.88,303987.55
+美国 Q1,54,35,53,monthly_income,CNY purchasing power; engine factor 3.5,7287.01,9799.64,14295.06,17332.74,25332.3
+美国 Q1,54,35,53,money,CNY purchasing power; engine factor 3.5,-147552.21,-1823.63,32701.97,164884.07,380053.41
+美国 Q1,54,35,53,nw,CNY purchasing power; engine factor 3.5,-27605.69,6843.26,64388.18,203405.63,542999.38
+美国 Q1,54,40,53,income,CNY purchasing power; engine factor 3.5,0.0,99285.08,180015.67,239873.29,331347.64
+美国 Q1,54,40,53,monthly_income,CNY purchasing power; engine factor 3.5,0.0,8273.76,15001.31,19989.44,27612.3
+美国 Q1,54,40,53,money,CNY purchasing power; engine factor 3.5,-565669.92,-99958.73,0.0,161875.59,379761.73
+美国 Q1,54,40,53,nw,CNY purchasing power; engine factor 3.5,-72862.68,-4839.38,111241.06,348057.68,791154.81
+美国 Q1,54,50,53,income,CNY purchasing power; engine factor 3.5,107150.08,139561.51,192577.8,273864.78,356370.4
+美国 Q1,54,50,53,monthly_income,CNY purchasing power; engine factor 3.5,8929.17,11630.13,16048.15,22822.06,29697.53
+美国 Q1,54,50,53,money,CNY purchasing power; engine factor 3.5,-560843.34,-303384.35,16921.59,147184.01,791891.75
+美国 Q1,54,50,53,nw,CNY purchasing power; engine factor 3.5,-74313.83,26027.81,227576.98,1096219.18,1837946.75
+美国 Q1,54,65,53,income,CNY purchasing power; engine factor 3.5,111587.12,127142.8,186999.75,335574.74,400943.39
+美国 Q1,54,65,53,monthly_income,CNY purchasing power; engine factor 3.5,9298.93,10595.23,15583.31,27964.56,33411.95
+美国 Q1,54,65,53,money,CNY purchasing power; engine factor 3.5,-335620.36,-61334.0,133161.7,1139563.05,2666813.92
+美国 Q1,54,65,53,nw,CNY purchasing power; engine factor 3.5,25155.39,228482.16,646040.05,2061894.98,4113119.51
+美国 Q5,72,24,72,income,CNY purchasing power; engine factor 3.5,0.0,106876.78,145463.78,215971.92,280271.85
+美国 Q5,72,24,72,monthly_income,CNY purchasing power; engine factor 3.5,0.0,8906.4,12121.98,17997.66,23355.99
+美国 Q5,72,24,72,money,CNY purchasing power; engine factor 3.5,909.5,31736.03,67725.37,237470.44,340229.98
+美国 Q5,72,24,72,nw,CNY purchasing power; engine factor 3.5,909.5,31736.03,67725.37,237470.44,340229.98
+美国 Q5,72,30,71,income,CNY purchasing power; engine factor 3.5,106669.85,130459.16,202264.16,296063.21,418531.17
+美国 Q5,72,30,71,monthly_income,CNY purchasing power; engine factor 3.5,8889.15,10871.6,16855.35,24671.93,34877.6
+美国 Q5,72,30,71,money,CNY purchasing power; engine factor 3.5,-426651.95,-69481.98,166054.27,361866.77,741147.64
+美国 Q5,72,30,71,nw,CNY purchasing power; engine factor 3.5,52477.18,167223.56,349479.6,658497.78,858337.45
+美国 Q5,72,35,71,income,CNY purchasing power; engine factor 3.5,112423.56,176974.57,229570.3,376260.78,508494.97
+美国 Q5,72,35,71,monthly_income,CNY purchasing power; engine factor 3.5,9368.63,14747.88,19130.86,31355.06,42374.58
+美国 Q5,72,35,71,money,CNY purchasing power; engine factor 3.5,-833559.66,-197440.08,159736.1,488311.81,1258366.31
+美国 Q5,72,35,71,nw,CNY purchasing power; engine factor 3.5,133732.52,303520.85,641809.72,1066020.71,1793023.65
+美国 Q5,72,40,71,income,CNY purchasing power; engine factor 3.5,97126.23,187749.17,244280.85,368221.96,535337.37
+美国 Q5,72,40,71,monthly_income,CNY purchasing power; engine factor 3.5,8093.85,15645.76,20356.74,30685.16,44611.45
+美国 Q5,72,40,71,money,CNY purchasing power; engine factor 3.5,-819748.84,-348753.02,58462.9,972519.59,1864843.6
+美国 Q5,72,40,71,nw,CNY purchasing power; engine factor 3.5,123175.56,418630.83,910771.95,1814733.02,2594609.42
+美国 Q5,72,50,71,income,CNY purchasing power; engine factor 3.5,100454.01,204388.01,277465.75,409438.28,570514.79
+美国 Q5,72,50,71,monthly_income,CNY purchasing power; engine factor 3.5,8371.17,17032.33,23122.15,34119.86,47542.9
+美国 Q5,72,50,71,money,CNY purchasing power; engine factor 3.5,-787106.72,-142243.16,387443.78,2167401.66,4267761.07
+美国 Q5,72,50,71,nw,CNY purchasing power; engine factor 3.5,472174.03,855351.3,1646117.51,3179757.82,5509012.25
+美国 Q5,72,65,68,income,CNY purchasing power; engine factor 3.5,107276.13,166333.16,302282.93,442776.21,607250.66
+美国 Q5,72,65,68,monthly_income,CNY purchasing power; engine factor 3.5,8939.68,13861.1,25190.24,36898.02,50604.22
+美国 Q5,72,65,68,money,CNY purchasing power; engine factor 3.5,19993.45,627794.11,3226245.37,6683878.36,10048046.52
+美国 Q5,72,65,68,nw,CNY purchasing power; engine factor 3.5,835981.0,1946192.49,4154463.0,7683359.6,11434922.2
+尼日利亚 Q1,87,24,48,income,CNY purchasing power; engine factor 3.5,0.0,0.0,11752.13,14597.92,17958.85
+尼日利亚 Q1,87,24,48,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,979.34,1216.49,1496.57
+尼日利亚 Q1,87,24,48,money,CNY purchasing power; engine factor 3.5,-6632.78,-3666.28,-966.78,870.8,3950.12
+尼日利亚 Q1,87,24,48,nw,CNY purchasing power; engine factor 3.5,-6632.78,-3666.28,-966.78,870.8,3950.12
+尼日利亚 Q1,87,30,46,income,CNY purchasing power; engine factor 3.5,0.0,1883.83,13505.16,17984.9,25820.48
+尼日利亚 Q1,87,30,46,monthly_income,CNY purchasing power; engine factor 3.5,0.0,156.99,1125.43,1498.74,2151.71
+尼日利亚 Q1,87,30,46,money,CNY purchasing power; engine factor 3.5,-9176.78,-5037.26,-3931.11,916.72,6068.54
+尼日利亚 Q1,87,30,46,nw,CNY purchasing power; engine factor 3.5,-9176.78,-5037.26,-3931.11,916.72,6068.54
+尼日利亚 Q1,87,35,45,income,CNY purchasing power; engine factor 3.5,0.0,0.0,14945.27,18352.61,31973.4
+尼日利亚 Q1,87,35,45,monthly_income,CNY purchasing power; engine factor 3.5,0.0,0.0,1245.44,1529.38,2664.45
+尼日利亚 Q1,87,35,45,money,CNY purchasing power; engine factor 3.5,-10705.13,-8671.46,-5033.69,-275.98,8304.52
+尼日利亚 Q1,87,35,45,nw,CNY purchasing power; engine factor 3.5,-9925.71,-8643.14,-4663.43,-268.32,9897.58
+尼日利亚 Q1,87,40,44,income,CNY purchasing power; engine factor 3.5,0.0,9183.48,16964.68,21074.69,35564.74
+尼日利亚 Q1,87,40,44,monthly_income,CNY purchasing power; engine factor 3.5,0.0,765.29,1413.72,1756.22,2963.73
+尼日利亚 Q1,87,40,44,money,CNY purchasing power; engine factor 3.5,-16889.23,-10232.06,-6270.44,-3629.1,1419.89
+尼日利亚 Q1,87,40,44,nw,CNY purchasing power; engine factor 3.5,-11439.65,-10091.34,-6116.27,-2914.97,4108.29
+尼日利亚 Q1,87,50,35,income,CNY purchasing power; engine factor 3.5,0.0,17610.48,23648.3,34457.21,58170.46
+尼日利亚 Q1,87,50,35,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1467.54,1970.69,2871.43,4847.54
+尼日利亚 Q1,87,50,35,money,CNY purchasing power; engine factor 3.5,-36358.75,-13992.21,-8132.83,3192.22,15323.27
+尼日利亚 Q1,87,50,35,nw,CNY purchasing power; engine factor 3.5,-27317.86,-13388.03,-6530.5,4635.62,15323.27
+尼日利亚 Q1,87,65,24,income,CNY purchasing power; engine factor 3.5,2971.13,11104.42,19025.92,35080.08,44350.2
+尼日利亚 Q1,87,65,24,monthly_income,CNY purchasing power; engine factor 3.5,247.59,925.37,1585.49,2923.34,3695.85
+尼日利亚 Q1,87,65,24,money,CNY purchasing power; engine factor 3.5,-8479.4,320.31,12597.53,33129.79,42670.03
+尼日利亚 Q1,87,65,24,nw,CNY purchasing power; engine factor 3.5,-8479.4,320.31,12597.53,33129.79,42670.03
+尼日利亚 Q5,84,24,69,income,CNY purchasing power; engine factor 3.5,0.0,3291.01,19237.88,31574.12,39023.82
+尼日利亚 Q5,84,24,69,monthly_income,CNY purchasing power; engine factor 3.5,0.0,274.25,1603.16,2631.18,3251.99
+尼日利亚 Q5,84,24,69,money,CNY purchasing power; engine factor 3.5,-3703.98,1291.43,5625.7,21208.92,34776.1
+尼日利亚 Q5,84,24,69,nw,CNY purchasing power; engine factor 3.5,-3703.98,1291.43,5625.7,21208.92,34776.1
+尼日利亚 Q5,84,30,67,income,CNY purchasing power; engine factor 3.5,0.0,13373.93,27649.6,41506.95,57881.34
+尼日利亚 Q5,84,30,67,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1114.49,2304.13,3458.91,4823.45
+尼日利亚 Q5,84,30,67,money,CNY purchasing power; engine factor 3.5,-70201.96,-20396.55,3057.13,28844.9,61538.0
+尼日利亚 Q5,84,30,67,nw,CNY purchasing power; engine factor 3.5,-4503.08,3094.11,17003.92,46229.31,75288.3
+尼日利亚 Q5,84,35,66,income,CNY purchasing power; engine factor 3.5,0.0,13854.16,28832.72,47808.51,66967.68
+尼日利亚 Q5,84,35,66,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1154.51,2402.73,3984.04,5580.64
+尼日利亚 Q5,84,35,66,money,CNY purchasing power; engine factor 3.5,-83319.81,-50697.4,-12895.2,12562.99,92282.68
+尼日利亚 Q5,84,35,66,nw,CNY purchasing power; engine factor 3.5,-5272.15,5164.82,38508.54,79682.99,116323.72
+尼日利亚 Q5,84,40,64,income,CNY purchasing power; engine factor 3.5,0.0,20066.05,35402.59,59092.35,102039.55
+尼日利亚 Q5,84,40,64,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1672.17,2950.22,4924.36,8503.3
+尼日利亚 Q5,84,40,64,money,CNY purchasing power; engine factor 3.5,-89250.48,-69964.21,-10949.9,12717.29,84104.98
+尼日利亚 Q5,84,40,64,nw,CNY purchasing power; engine factor 3.5,-9851.12,4049.38,49040.66,109863.1,214889.17
+尼日利亚 Q5,84,50,62,income,CNY purchasing power; engine factor 3.5,0.0,23548.29,52423.97,74134.7,127172.5
+尼日利亚 Q5,84,50,62,monthly_income,CNY purchasing power; engine factor 3.5,0.0,1962.36,4368.66,6177.89,10597.71
+尼日利亚 Q5,84,50,62,money,CNY purchasing power; engine factor 3.5,-88593.46,-49609.85,1291.15,63030.9,260149.54
+尼日利亚 Q5,84,50,62,nw,CNY purchasing power; engine factor 3.5,-88.37,25202.25,107608.04,197870.38,450729.12
+尼日利亚 Q5,84,65,53,income,CNY purchasing power; engine factor 3.5,0.0,11226.25,31543.57,53572.01,72725.49
+尼日利亚 Q5,84,65,53,monthly_income,CNY purchasing power; engine factor 3.5,0.0,935.52,2628.63,4464.33,6060.46
+尼日利亚 Q5,84,65,53,money,CNY purchasing power; engine factor 3.5,-90198.15,12614.49,61987.8,136146.22,400588.69
+尼日利亚 Q5,84,65,53,nw,CNY purchasing power; engine factor 3.5,17475.3,67260.66,194903.29,296928.88,551470.05
