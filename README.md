@@ -20,6 +20,8 @@ GitHub Pages deploys the main branch root. No build step or external scripts req
 
 ## P1_abroad
 
+The default primary comparison now includes only adult first departures for work or study. Work and study are shown separately against their own same-seed controls. Adoption, refugee flight, spouse postings, nomadic settlement, later-life family reunification, unknown routes and minor work/study departures remain separate descriptive categories. Empty matched cohorts display no amount, not zero. All 770 cohort definitions were checked for partition consistency.
+
 The report now includes residence-path drilldowns, first/final destinations, event excerpts and same-seed comparisons conditional on observed migration success by the selected age. It preserves the original full-policy comparison as reference. Success-conditioned comparisons are descriptive, not unconfounded causal effects.
 
 Additional sources: p1_analyze_migration.py, p1_analyze_success.py, p1_migration.js, p1_migration.section.html, p1_success.js and p1_success.section.html. Restore the original scripts filenames and directory structure before running. After the base analysis, run analyze_migration.py, analyze_success.py, then build_report.py. Migration analysis also needs the original A_peers2002/tables/birth_country.csv country-name mapping. Annual snapshots can miss within-year moves; ambiguous routes remain unknown.

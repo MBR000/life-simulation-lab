@@ -11,11 +11,18 @@ mig={r['id']:r for r in M['records']}
 metrics={'monthly_cny':('income',3.5/12),'nw_cny':('nw',3.5),'money_cny':('money',3.5),'h':('h',1)}
 def summary(v):
     return {'n':len(v),'median':statistics.median(v) if v else None,'mean':statistics.mean(v) if v else None}
+SCOPES=['primary','work','study','spouse','nomad','refugee','adopt','family','unknown','minor','all']
+def in_scope(m,scope):
+    if scope=='all':return True
+    if scope=='primary':return m['first_age']>=18 and m['route'] in ['work','study']
+    if scope in ['work','study']:return m['first_age']>=18 and m['route']==scope
+    if scope=='minor':return m['first_age']<18 and m['route'] in ['work','study']
+    return m['route']==scope
 out=[];detail=[]
 for iso in D['countries']:
  for age in D['ages']:
   for mode in ['ever','current']:
-   for scope in ['all','active']:
+   for scope in SCOPES:
     pairs=[];eligible=0
     for i in range(1,1001):
      seed=f'P-{i:06d}';a,b=[idx[(iso,seed,arm)] for arm in ['avoid','seek']]
@@ -23,7 +30,7 @@ for iso in D['countries']:
      if not mb:continue
      cutoff=float('inf') if age=='death' else int(age)
      if mb['first_age']>cutoff:continue
-     if scope=='active' and (mb['first_age']<18 or mb['route'] not in ['work','study','spouse','nomad']):continue
+     if not in_scope(mb,scope):continue
      # Control must have no observed foreign residence up to this observation age.
      if ma and ma['first_age']<=cutoff:continue
      eligible+=1
