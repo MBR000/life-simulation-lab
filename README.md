@@ -20,4 +20,8 @@ GitHub Pages deploys the main branch root. No build step or external scripts req
 
 ## P1_abroad
 
+The report now includes residence-path drilldowns, first/final destinations, event excerpts and same-seed comparisons conditional on observed migration success by the selected age. It preserves the original full-policy comparison as reference. Success-conditioned comparisons are descriptive, not unconfounded causal effects.
+
+Additional sources: p1_analyze_migration.py, p1_analyze_success.py, p1_migration.js, p1_migration.section.html, p1_success.js and p1_success.section.html. Restore the original scripts filenames and directory structure before running. After the base analysis, run analyze_migration.py, analyze_success.py, then build_report.py. Migration analysis also needs the original A_peers2002/tables/birth_country.csv country-name mapping. Annual snapshots can miss within-year moves; ambiguous routes remain unknown.
+
 P1_abroad.html compares seek/avoid abroad policies for 1,000 paired seeds in each of five country settings. Includes CNY purchasing-power amounts, N2 path-sensitivity reference, policy coverage and five paired-life logs. The p1_ CSV and Python/template files provide analysis outputs and source. To rerun, restore the original experiments/P1_abroad/scripts layout, full P1 jobs/runs/raw data and sibling N_noise data; remove p1_ prefixes from script/template names. The public repository alone cannot reproduce the full analysis.
