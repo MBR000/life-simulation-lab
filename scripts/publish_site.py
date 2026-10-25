@@ -25,6 +25,11 @@ def read(path):
     return path.read_bytes().decode("utf-8")
 
 
+def same_text(current, expected):
+    # Git's Windows checkout may convert LF to CRLF. That is not stale content.
+    return current.replace("\r\n", "\n") == expected.replace("\r\n", "\n")
+
+
 def load_catalog():
     catalog = json.loads(read(SITE / "reports.json"))
     reports = {item["id"]: item for item in catalog["reports"]}
@@ -196,7 +201,7 @@ def main():
         # Compute and validate everything before changing any file.
         outputs = build_outputs(groups, reports)
         stale = [path for path, content in outputs.items()
-                 if not path.exists() or read(path) != content]
+                 if not path.exists() or not same_text(read(path), content)]
     except (OSError, ValueError, KeyError) as error:
         parser.exit(1, f"Site build failed: {error}\n")
     if args.check:
