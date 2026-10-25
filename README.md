@@ -1,37 +1,126 @@
-# Life Simulation Lab
+# Life Simulation Lab · 人生模拟实验室
 
-A collection of interactive life-simulation reports. Open index.html for the report directory.
+[简体中文](README.md) · [English](README.en.md)
 
-## Published reports
+用一组交互式实验报告，观察模拟人生中的起点、选择与随机路径。
+从“一万个同龄人后来怎样”开始，再逐步改变出生地、年代、人生策略与一次具体选择。
 
-- A_peers2002.html: 10,000 simulated lives born in 2002, across 160 birth countries. Includes age filters, CNY purchasing-power amounts, and 12 traceable cases.
+**[在线阅读](https://mbr000.github.io/life-simulation-lab/) · [全部 15 份报告](https://mbr000.github.io/life-simulation-lab/reports.html)**
 
-These are simulator results, not real population observations or personal predictions. CNY values use the game's mainland-China purchasing-power factor of 3.5, not a market exchange rate.
+这是基于 v0.8.30 引擎结果的**静态报告与分析材料仓库**，包含图表、配对案例、汇总 CSV 和分析源码。
+模拟引擎与完整原始实验数据不在仓库内。结果描述模拟器中的人生，不是现实人口统计或个人预测。
 
-## Included data
+## 先读五篇主线
 
-The report embeds its charts and case narratives. snaps.csv contains age snapshots; money_cny.csv contains currency summaries; the 12 json.gz files are the selected simulated cases.
+主线顺序：**A → B → D → C → C2**。先理解分布，再看起点，最后看选择。
 
-analyze.py is included as methodology source. This repository does not include the full original runs.jsonl, jobs.jsonl, engine, or other raw lives, so complete analysis cannot be rerun from this repository alone. Local experiment paths in the report describe the original analysis provenance.
+| 顺序 | 报告 | 这一篇回答什么 |
+| --- | --- | --- |
+| 1 | [A · 一万个同龄人，后来呢？](A_peers2002.html) | 2002 年出生、来自 160 个出生国的 10,000 次模拟人生，后来怎样分化？ |
+| 2 | [B · 同一个人，换个出生地](B_country.html) | 同一种预设人格，出生在不同国家，结果差多少？ |
+| 3 | [D · 同一个人，换个年代](D_era.html) | 在六个年代、四个国家出生，人生路径怎样变化？ |
+| 4 | [C · 同一个人，换种活法](C_strategy.html) | 相同起点下，六种整套人生方针会怎样分岔？ |
+| 5 | [C2 · 改选一次，人生会怎样？](C2_flip.html) | 只在一个分岔点改变选择，后来改变多少、方向如何？ |
 
-## Hosting
+A 提供默认人生的阅读背景；它并不是其他实验共用的统计对照组。
+每份报告有自己的样本、比较条件、覆盖率与方法说明。
 
-GitHub Pages deploys the main branch root. No build step or external scripts required.
+## 按问题选读专题
 
-## P1_abroad
+十篇专题独立阅读即可，无须按编号全部读完。
 
-The default primary comparison now includes only adult first departures for work or study. Work and study are shown separately against their own same-seed controls. Adoption, refugee flight, spouse postings, nomadic settlement, later-life family reunification, unknown routes and minor work/study departures remain separate descriptive categories. Empty matched cohorts display no amount, not zero. All 770 cohort definitions were checked for partition consistency.
+| 分组 | 报告 |
+| --- | --- |
+| 选择与积累 | [P1 出国](P1_abroad.html) · [P3 学习](P3_study.html) · [P2 理财](P2_invest.html) · [P7 婚育](P7_family.html) |
+| 日常与关系 | [H1 自动消费](H1_habits.html) · [P4 礼金](P4_gift.html) · [H2 孝亲费](H2_parents.html) |
+| 健康投入 | [P5 保险](P5_ins.html) · [P6 饮食](P6_diet.html) · [H3 健检与私教](H3_checkup.html) |
 
-The report now includes residence-path drilldowns, first/final destinations, event excerpts and same-seed comparisons conditional on observed migration success by the selected age. It preserves the original full-policy comparison as reference. Success-conditioned comparisons are descriptive, not unconfounded causal effects.
+报告正文和页面导航目前为中文。中英文 README 介绍同一项目，不代表报告正文已翻译。
 
-Additional sources: p1_analyze_migration.py, p1_analyze_success.py, p1_migration.js, p1_migration.section.html, p1_success.js and p1_success.section.html. Restore the original scripts filenames and directory structure before running. After the base analysis, run analyze_migration.py, analyze_success.py, then build_report.py. Migration analysis also needs the original A_peers2002/tables/birth_country.csv country-name mapping. Annual snapshots can miss within-year moves; ambiguous routes remain unknown.
+## 本地阅读
 
-P1_abroad.html compares seek/avoid abroad policies for 1,000 paired seeds in each of five country settings. Includes CNY purchasing-power amounts, N2 path-sensitivity reference, policy coverage and five paired-life logs. The p1_ CSV and Python/template files provide analysis outputs and source. To rerun, restore the original experiments/P1_abroad/scripts layout, full P1 jobs/runs/raw data and sibling N_noise data; remove p1_ prefixes from script/template names. The public repository alone cannot reproduce the full analysis.
+浏览报告不需要 Node.js、npm 或前端依赖，也不需要运行分析脚本。
 
+```sh
+git clone https://github.com/MBR000/life-simulation-lab.git
+cd life-simulation-lab
+python -m http.server 8000
+```
 
-## 2026-10-25 site redesign and D_era
+打开 [http://localhost:8000](http://localhost:8000)，从首页进入主线或专题目录。
+Windows 如果没有 `python` 命令，可用 `py -m http.server 8000`。
+也可以直接打开 `index.html`；请保留仓库中的相邻文件，以便加载样式、访问报告和下载材料。
 
-The homepage is now a five-chapter narrative (baseline → birth place and era → major choices → everyday spending → health spending) with two overview charts. Every report gets a shared theme (theme.css), a reading guide (question, headline answer, role in the story, reading order, main misreading) and previous/next navigation. These are injected by scripts/publish_site.py in the source project; report data and statistics are unchanged.
+## 仓库怎么组织
 
-D_era.html compares the same 1,000 seeds born in 1950, 1960, 1978, 1991, 2002 and 2020 in China, India, Nigeria and South Korea (24,000 lives, engine 0.8.30). d_ files are its summary tables and analysis sources. Amounts use the 3.5 CNY purchasing-power factor and are not adjusted for real prices across eras; everything after 2026 is simulated future.
+```text
+life-simulation-lab/
+├── index.html                 # 主线首页，生成文件
+├── reports.html               # 全部报告索引，生成文件
+├── A_peers2002.html … H3_checkup.html
+│                             # 15 份已发布报告，正文与图表数据保留在各页
+├── site.css                   # 首页与报告目录样式
+├── theme.css                  # 报告共用主题与导航样式
+├── site/
+│   ├── reports.json           # 阅读顺序、分组、标题与导读的统一来源
+│   ├── index.template.html    # 主线首页模板
+│   ├── reports.template.html  # 全部报告索引模板
+│   └── overview.fragment.html # 全部报告页中可展开的概览图表
+├── scripts/publish_site.py    # 生成首页、目录与报告导航
+├── docs/methodology.md        # 方法边界、原路径约定与 P1 详细口径
+├── *.csv                     # 已发布的统计表与年龄快照
+├── A-*.json.gz               # A 报告选出的 12 份模拟人生原始个案
+└── *.py / *.template.html / p1_*.js / p1_*.section.html
+                              # 原分析与报告构建源码的发布副本
+```
+
+根目录保留报告和下载文件的既有地址，避免破坏旧链接。
+日常调整阅读结构时，主要修改 `site/`、`scripts/publish_site.py` 和两份样式表。
+根目录的 `b_`、`p1_` 等前缀用于区分不同实验发布的同名材料，不代表可直接批量运行。
+
+## 更新首页、目录与导航
+
+修改 `site/reports.json` 中的分组、顺序或导读；调整布局时修改对应模板和样式。
+然后在仓库根目录运行：
+
+```sh
+python scripts/publish_site.py
+python scripts/publish_site.py --check
+```
+
+发布脚本只使用 Python 标准库。它生成 `index.html`、`reports.html`，并替换报告中
+`<!--site:bar-->`、`<!--site:guide-->`、`<!--site:next-->` 标记区域的内容。
+报告的统计正文、内嵌数据和交互脚本不由此脚本重新生成。
+`--check` 只检查生成结果与源文件是否一致，不写文件，也不复核统计结论。
+
+不要直接修改生成的首页、目录或报告导航；下次生成会覆盖这些改动。
+GitHub Pages 可直接发布 `main` 分支根目录中的静态文件；浏览者无须执行构建命令。
+
+## 数据口径与复算边界
+
+- **金额**：人民币金额使用游戏内中国大陆购买力系数 **3.5**，不是市场汇率。月均收入通常为游戏年收入 × 3.5 ÷ 12。
+- **年龄与样本**：当期金额常基于该年龄有快照或共同存活的人群；应同时看样本量。不能把不同年龄的横截面差异直接读成个人成长。
+- **配对与筛选**：相同 seed 帮助固定起点，但策略会改变后续路径。按实际执行或成功结果筛选的组，不能直接当作无偏因果效果。
+- **年代**：D 比较 1950、1960、1978、1991、2002、2020 年出生者，共 24,000 次模拟人生；金额未做跨年代现实物价校正。2026 年之后都是模拟未来。
+- **评分**：幸福、健康与人际等是游戏指标；专题结果不构成现实中的投资、医疗或人生决策建议。
+
+| 这份仓库支持什么 | 范围 |
+| --- | --- |
+| 浏览、筛选和下载 | 报告内嵌图表数据与选定案例，附已发布的 CSV、12 份 A 原始个案 |
+| 重建站点入口与导航 | `scripts/publish_site.py`，只需现有仓库和 Python |
+| 阅读分析方法 | 已公开的分析脚本、报告模板及各报告的方法章节 |
+| 完整重算或重新模拟 | **不能仅靠本仓库完成**；缺少完整 `runs.jsonl`、`jobs.jsonl`、`raw/`、部分辅助数据及引擎 |
+
+原分析脚本使用 Python 标准库和项目内辅助模块，但保留了原项目的 `experiments/`、`scripts/` 等路径约定。
+即使装好 Python，也需补齐数据、恢复文件名与目录后才能复算。
+详细说明及 P1 出国路径与成功筛选规则见 [方法与复算说明](docs/methodology.md)。
+
+## 如何贡献
+
+1. 阅读体验或导航调整：改 `site/` 和样式，重新生成页面，并提交源文件与生成结果。
+2. 报告内容或统计修正：说明报告、年龄、国家、筛选条件、使用的表格，以及修改依据；同步更新相关分析源码与报告。
+3. 新增报告：准备独立 HTML 和下载材料，在 `site/reports.json` 登记分组与有效锚点。参照现有报告引入 `theme.css`、为 `body` 添加 `site` 类，并准备上述三组配对导航标记；发布器只更新已有标记区域。
+4. 提交前运行 `--check`，通过本地服务检查桌面与手机宽度下的阅读顺序、筛选、返回链接和下载链接。
+
+涉及数据变更时，请在变更说明中标注引擎版本、样本口径、复算范围及仍无法验证的部分。
 

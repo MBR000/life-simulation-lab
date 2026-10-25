@@ -1,0 +1,426 @@
+{
+  "groups": [
+    {
+      "id": "main",
+      "title": "主线阅读",
+      "description": "先理解默认人生、起点与选择，再看一次分岔。",
+      "color": "#3d5a80",
+      "reports": [
+        "A_peers2002",
+        "B_country",
+        "D_era",
+        "C_strategy",
+        "C2_flip"
+      ]
+    },
+    {
+      "id": "choices",
+      "title": "选择与积累",
+      "description": "出国、学习、理财与家庭，按你关心的问题进入。",
+      "color": "#5b4b8a",
+      "reports": [
+        "P1_abroad",
+        "P3_study",
+        "P2_invest",
+        "P7_family"
+      ]
+    },
+    {
+      "id": "everyday",
+      "title": "日常与关系",
+      "description": "消费、礼金与孝亲费，看看长期支出换来了什么。",
+      "color": "#a16b17",
+      "reports": [
+        "H1_habits",
+        "P4_gift",
+        "H2_parents"
+      ]
+    },
+    {
+      "id": "health",
+      "title": "健康投入",
+      "description": "把保险、饮食和健检放在各自的比较口径里阅读。",
+      "color": "#2f7a72",
+      "reports": [
+        "P5_ins",
+        "P6_diet",
+        "H3_checkup"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": "A_peers2002",
+      "file": "A_peers2002.html",
+      "title": "一万个同龄人，后来呢？",
+      "question": "2002 年出生的一万个人，在模拟器里会分化成什么样？",
+      "role": "先认识默认人生的分布，理解同龄人之间的差距与随机路径。它提供阅读背景，不是其他实验共用的对照组。",
+      "caution": "组间差异是不同人的分布，不能读成“换一次出身”的因果效果。",
+      "links": [
+        {
+          "href": "#now",
+          "label": "24 岁画像"
+        },
+        {
+          "href": "#distance",
+          "label": "家境与差距"
+        },
+        {
+          "href": "#lives",
+          "label": "十二个人"
+        },
+        {
+          "href": "#noise",
+          "label": "随机扰动"
+        }
+      ],
+      "label": "默认人生"
+    },
+    {
+      "id": "B_country",
+      "file": "B_country.html",
+      "title": "同一个人，换个出生地",
+      "question": "同一个预设人格，出生在九个不同国家，人生差多少？",
+      "role": "把出生地作为变化条件，观察起点能拉开多大差距。",
+      "caution": "固定的是相对家境档位和天分，不是相同人民币家产；不能读成现实移民收益。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "年龄与金额"
+        },
+        {
+          "href": "#birth",
+          "label": "出生状态"
+        },
+        {
+          "href": "#cases",
+          "label": "极差案例"
+        }
+      ],
+      "label": "出生地"
+    },
+    {
+      "id": "D_era",
+      "file": "D_era.html",
+      "title": "同一个人，换个年代",
+      "question": "同一颗种子出生在 1950、1960、1978、1991、2002、2020 年，人生差多少？",
+      "role": "再改变出生年代，分清同龄比较、历史情境和模拟未来。",
+      "caution": "金额未做跨年代现实物价校正；2026 年之后全部是模拟未来，2020 年出生者的成年人生几乎都在其中。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "同龄金额"
+        },
+        {
+          "href": "#history",
+          "label": "历史与物品"
+        },
+        {
+          "href": "#cases",
+          "label": "配对案例"
+        }
+      ],
+      "label": "出生年代"
+    },
+    {
+      "id": "C_strategy",
+      "file": "C_strategy.html",
+      "title": "同一个人，换种活法",
+      "question": "三国六种人生方针，选择能解释多少差异？",
+      "role": "在相同起点下比较整套人生方针，建立理解具体选择的尺度。",
+      "caution": "组合臂不是各单项相加，无法识别学习×出国的交互。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        },
+        {
+          "href": "#cases",
+          "label": "原始案例"
+        }
+      ],
+      "label": "人生策略"
+    },
+    {
+      "id": "C2_flip",
+      "file": "C2_flip.html",
+      "title": "改选一次，人生会怎样？",
+      "question": "在原人生的某个分岔点只改一次选择，后来差多少？",
+      "role": "最后缩小到一次选择：区分人生改变了多少，以及变好还是变坏。",
+      "caution": "30 类抉择各自筛选了不同人群，排行不是通用人生建议。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#cases",
+          "label": "配对案例"
+        },
+        {
+          "href": "#method",
+          "label": "方法与下载"
+        }
+      ],
+      "label": "一次改选"
+    },
+    {
+      "id": "P1_abroad",
+      "file": "P1_abroad.html",
+      "title": "出国，还是留下？",
+      "question": "积极寻找出国机会，与倾向留在本国，人生会怎样分岔？",
+      "role": "把收入与资产分开看，再区分策略分配、实际出国和成功筛选。",
+      "caution": "按出国成功筛选的对比是描述性的，不是无偏的出国效果。",
+      "links": [
+        {
+          "href": "#migration",
+          "label": "迁移路径"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与年龄"
+        },
+        {
+          "href": "#noise",
+          "label": "随机路径参照"
+        },
+        {
+          "href": "#cases",
+          "label": "成对人生"
+        }
+      ],
+      "label": "出国，还是留下？"
+    },
+    {
+      "id": "P3_study",
+      "file": "P3_study.html",
+      "title": "一直学习，何时改变人生？",
+      "question": "持续升学、在职教育与证照课程，回报在几岁出现？",
+      "role": "沿着年龄读学习的投入与回报，观察差异何时出现。",
+      "caution": "各年龄的幸存样本不同；综合策略同时改了升学与专注方向，不能归功于单个开关。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "一直学习，何时改变人生？"
+    },
+    {
+      "id": "P2_invest",
+      "file": "P2_invest.html",
+      "title": "存下来的钱，放在哪里？",
+      "question": "七种理财方针，65 岁时差多少？",
+      "role": "比较不同理财方针下的整条人生路径与资产差异。",
+      "caution": "是整条策略路径差，不是交易账户收益率；不构成投资建议。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        },
+        {
+          "href": "#cases",
+          "label": "原始案例"
+        }
+      ],
+      "label": "存下来的钱，放在哪里？"
+    },
+    {
+      "id": "P7_family",
+      "file": "P7_family.html",
+      "title": "不结婚、不生育，老了以后怎样？",
+      "question": "三种家庭方针，对晚年的钱与幸福有什么影响？",
+      "role": "先看家庭方针是否实际生效，再读晚年的资产与幸福。",
+      "caution": "不登记结婚仍可能同居生育；先看方针实际生效率再读结果。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "生效与结果"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "不结婚、不生育，老了以后怎样？"
+    },
+    {
+      "id": "H1_habits",
+      "file": "H1_habits.html",
+      "title": "把钱花在关系、体验，还是留下？",
+      "question": "五种自动消费设置，换来多少幸福，花掉多少钱？",
+      "role": "把消费支出与幸福评分放在一起，观察追加支出的回报。",
+      "caution": "“关闭”只关七项自动消费；幸福、人际都是游戏评分。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        },
+        {
+          "href": "#cases",
+          "label": "原始案例"
+        }
+      ],
+      "label": "把钱花在关系、体验，还是留下？"
+    },
+    {
+      "id": "P4_gift",
+      "file": "P4_gift.html",
+      "title": "红白包，包钱还是到场？",
+      "question": "少包礼金只到场，省下的钱留下来了吗？",
+      "role": "检查礼金支出的结果是否随年龄、国家和统计指标改变。",
+      "caution": "均值与中位数方向不一致，各国各年龄也不一致。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "红白包，包钱还是到场？"
+    },
+    {
+      "id": "H2_parents",
+      "file": "H2_parents.html",
+      "title": "给父母孝亲费，改变了什么？",
+      "question": "按月给父母钱，父母活得更久吗？子女付出多少？",
+      "role": "把子女的支出与父母共同随访期内的存活年数分开阅读。",
+      "caution": "只看子女 20–60 岁间共同可观察区间，不是父母完整寿命。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "给父母孝亲费，改变了什么？"
+    },
+    {
+      "id": "P5_ins",
+      "file": "P5_ins.html",
+      "title": "多买保险，换来了什么？",
+      "question": "更完整的保险，换来健康或寿命了吗？",
+      "role": "同时看保费支出与住院保障，理解健康评分之外的机制。",
+      "caution": "保障价值体现在住院场景，不能据此把风险保障归零。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "多买保险，换来了什么？"
+    },
+    {
+      "id": "P6_diet",
+      "file": "P6_diet.html",
+      "title": "吃得更健康，人生怎样变化？",
+      "question": "每年选择健康饮食，健康和寿命有改善吗？",
+      "role": "比较饮食支出、健康评分和寿命，注意三者不是同一指标。",
+      "caution": "健康分是游戏评分，不是医学量表。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "吃得更健康，人生怎样变化？"
+    },
+    {
+      "id": "H3_checkup",
+      "file": "H3_checkup.html",
+      "title": "每年健检加教练课，改变了什么？",
+      "question": "每年花当地中位收入的 8% 做健检和私教，值吗？",
+      "role": "观察健检与私教组合的支出、健康和寿命差异。",
+      "caution": "干预同时包含健检、锻炼和慢病筛查，不是单纯体检效果。",
+      "links": [
+        {
+          "href": "#findings",
+          "label": "主要发现"
+        },
+        {
+          "href": "#compare",
+          "label": "金额与配对"
+        },
+        {
+          "href": "#mechanism",
+          "label": "执行机制"
+        }
+      ],
+      "label": "每年健检加教练课，改变了什么？"
+    }
+  ]
+}

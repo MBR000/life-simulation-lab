@@ -13,14 +13,16 @@ body.site h1,body.site h2{font-family:var(--s-serif);font-weight:700;letter-spac
 body.site h1{line-height:1.18}
 body.site h3{font-weight:650}
 body.site .panel,body.site .card{border-radius:10px;box-shadow:0 1px 0 rgba(29,36,51,.04),0 8px 24px -18px rgba(29,36,51,.35)}
-body.site .controls{border-radius:10px;top:46px}
+body.site .controls{border-radius:10px;top:54px}
 body.site select,body.site button{border-radius:6px}
 body.site .warn{border-radius:0 8px 8px 0}
+/* C2's distribution table keeps its bar scale and scrolls inside the page. */
+body.site #drill #hist{overflow-x:auto}
 body.site ::selection{background:#f2c9b6}
 body.site a{text-underline-offset:3px}
 body.site main>header{padding-top:28px}
 
-.site-bar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:16px;padding:11px max(20px,4vw);
+.site-bar{position:sticky;top:0;z-index:50;display:flex;align-items:center;flex-wrap:nowrap;gap:16px;margin:0;min-height:54px;padding:11px max(20px,4vw);
   background:rgba(246,241,232,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--s-line);font:13px/1.4 var(--s-sans)}
 .site-bar a{color:var(--s-ink);text-decoration:none}
 .site-bar .brand{font-family:var(--s-serif);font-weight:700;font-size:15px;letter-spacing:.02em;white-space:nowrap}
@@ -29,17 +31,17 @@ body.site main>header{padding-top:28px}
 .site-bar .nx{margin-left:auto;display:flex;gap:14px;white-space:nowrap}
 .site-bar .nx a{color:var(--s-muted)}.site-bar .nx a:hover{color:var(--chapter)}
 
-.site-guide{margin:30px 0 14px;padding:30px 32px;background:var(--s-card);border:1px solid var(--s-line);border-top:4px solid var(--chapter);
-  border-radius:12px;display:grid;grid-template-columns:1.3fr 1fr;gap:22px 44px;font-family:var(--s-sans)}
-.site-guide .tag{font:12px/1.4 var(--s-mono);letter-spacing:.14em;color:var(--chapter);text-transform:uppercase;grid-column:1/-1}
-.site-guide .q{font-family:var(--s-serif);font-size:24px;line-height:1.45;margin:0 0 12px;color:var(--s-ink);font-weight:700}
-.site-guide .ans{font-size:16px;line-height:1.8;margin:0;color:var(--s-ink)}
-.site-guide .ans b{color:var(--chapter)}
-.site-guide dl{margin:0;display:grid;gap:14px}
-.site-guide dt{font-size:12px;letter-spacing:.12em;color:var(--s-muted);margin:0}
-.site-guide dd{margin:3px 0 0;font-size:14px;line-height:1.7}
-.site-guide .read a{color:var(--chapter);margin-right:12px;white-space:nowrap}
-@media(max-width:760px){.site-guide{grid-template-columns:1fr;padding:22px}.site-bar .crumb{display:none}.site-bar .nx a.p{display:none}}
+.site-guide{margin:24px 0 14px;padding:18px 22px;background:var(--s-card);border:1px solid var(--s-line);border-left:3px solid var(--chapter);
+  border-radius:7px;font:14px/1.8 var(--s-sans)}
+.site-guide .route-context{margin:0;color:var(--s-ink)}
+.site-guide details{padding:0;border:0;margin:10px 0 0}
+.site-guide summary{cursor:pointer;color:var(--chapter);font-size:13px}
+.site-guide details p{color:var(--s-muted);margin:10px 0}
+.site-guide .read{display:flex;flex-wrap:wrap;gap:8px 18px}
+.site-guide .read a{color:var(--chapter)}
+body.site a:focus-visible,body.site summary:focus-visible{outline:2px solid var(--s-accent);outline-offset:4px}
+@media(max-width:760px){.site-guide{padding:16px}.site-bar{position:static;gap:10px;padding:12px 16px;flex-wrap:wrap}.site-bar .crumb{display:none}.site-bar .brand{font-size:14px}.site-bar .chap{font-size:12px}.site-bar .nx{gap:12px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .site-next{max-width:1200px;margin:60px auto 0;padding:0 24px 70px;display:grid;grid-template-columns:1fr 1fr;gap:18px;font-family:var(--s-sans)}
 .site-next a{display:block;padding:22px 24px;background:var(--s-card);border:1px solid var(--s-line);border-radius:12px;text-decoration:none;color:var(--s-ink)}
