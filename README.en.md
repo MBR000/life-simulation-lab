@@ -5,10 +5,16 @@
 Interactive reports exploring how starting conditions, choices, and randomness shape simulated lives.
 Start with 10,000 people born in the same year, then vary birthplace, birth year, life strategy, and a single decision.
 
-**[Read online](https://mbr000.github.io/life-simulation-lab/) · [All 15 reports](https://mbr000.github.io/life-simulation-lab/reports.html)**
+**[Read online](https://mbr000.github.io/life-simulation-lab/) · [Stories and essays](https://mbr000.github.io/life-simulation-lab/library.html) (Chinese) · [All 15 reports](https://mbr000.github.io/life-simulation-lab/reports.html)**
 
 This is a **static report and analysis-material repository** based on engine v0.8.30 outputs, with charts, paired cases, summary CSVs, and analysis source.
 The simulation engine and complete original experiment data are not included. Results describe the simulator, not real populations or personal predictions.
+
+> All results come from the 1in8b v0.8.30 engine archived on 2026-10-24. The live game has since moved to the v0.8.40 beta, so its rules may differ.
+
+## Stories and essays
+
+The [reading library](library.html) (Chinese) has three essays that connect the main findings and three stories drawn from raw life records: one persona born in nine countries, one decision changed at age 14, and twelve peers born in 2002. Story text only links engine log entries; quoted lines are verbatim.
 
 ## Start with the five core reports
 
@@ -57,6 +63,9 @@ You can also open `index.html` directly; retain the neighboring repository files
 life-simulation-lab/
 ├── index.html                 # Core reading homepage; generated
 ├── reports.html               # Complete report index; generated
+├── library.html               # Stories and essays index; generated
+├── essay-*.html / story-*.html # Three essays and three stories; generated
+├── reading.css                # Styles for reading pages
 ├── A_peers2002.html … H3_checkup.html
 │                             # 15 published reports with their text and chart data
 ├── site.css                   # Homepage and index styles

@@ -8,8 +8,12 @@ Only <!--site:*--> regions in published reports are replaced.
 import argparse
 import json
 import re
+import sys
 from html import escape
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import reading  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
@@ -99,7 +103,7 @@ def navigation(report, group, reports, main):
         + a("index.html", "人生模拟实验室", "brand")
         + a(home, context, "chap")
         + f'<span class="crumb">{escape(report["label"])}</span>'
-        + '<span class="nx">' + a("reports.html", "全部报告") + '</span></nav>'
+        + '<span class="nx">' + a("library.html", "故事与文章") + a("reports.html", "全部报告") + '</span></nav>'
     )
     links = " ".join(a(link["href"], link["label"]) for link in report["links"])
     guide = (
@@ -167,7 +171,10 @@ def build_outputs(groups, reports):
             f'<div class="group-heading"><h2>{escape(group["title"])}</h2><p>{escape(group["description"])}</p></div>'
             '<ul class="report-list">' + "\n".join(rows) + '</ul></section>'
         )
+    pieces, reading_outputs = reading.build()
     values = {
+        "ESSAY_CARDS": reading.cards(pieces, "essay"),
+        "STORY_CARDS": reading.cards(pieces, "story"),
         "MAIN_ROWS": "\n".join(main_rows),
         "TOPIC_CARDS": "\n".join(topic_cards),
         "CATALOG_GROUPS": "\n".join(catalog_groups),
@@ -180,6 +187,7 @@ def build_outputs(groups, reports):
     }
     outputs = {ROOT / "index.html": render_template("index.template.html", values),
                ROOT / "reports.html": render_template("reports.template.html", values)}
+    outputs.update(reading_outputs)
     for group in groups:
         for ident in group["reports"]:
             report = reports[ident]

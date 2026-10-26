@@ -5,10 +5,27 @@
 用一组交互式实验报告，观察模拟人生中的起点、选择与随机路径。
 从“一万个同龄人后来怎样”开始，再逐步改变出生地、年代、人生策略与一次具体选择。
 
-**[在线阅读](https://mbr000.github.io/life-simulation-lab/) · [全部 15 份报告](https://mbr000.github.io/life-simulation-lab/reports.html)**
+**[在线阅读](https://mbr000.github.io/life-simulation-lab/) · [故事与文章](https://mbr000.github.io/life-simulation-lab/library.html) · [全部 15 份报告](https://mbr000.github.io/life-simulation-lab/reports.html)**
 
 这是基于 v0.8.30 引擎结果的**静态报告与分析材料仓库**，包含图表、配对案例、汇总 CSV 和分析源码。
 模拟引擎与完整原始实验数据不在仓库内。结果描述模拟器中的人生，不是现实人口统计或个人预测。
+
+> 全部结果基于 2026-10-24 存档的 1in8b v0.8.30 引擎。线上游戏已更新到 v0.8.40 测试版，规则可能已经变化。
+
+## 故事与文章
+
+不想先看图表，可以从 [读物目录](library.html) 开始：三篇文章把报告里最重要的发现串起来，三个故事从原始人生纪录中挑出具体的人。
+
+| 类型 | 标题 | 来源 |
+| --- | --- | --- |
+| 文章 | [出生证明上的那一行字](essay-birthplace.html) | B、D、C |
+| 故事 | [她出生了九次](story-nine-births.html) | B 极差案例 B-000536 |
+| 文章 | [改一次选择，不如多掷一次骰子](essay-butterfly.html) | C2、N_noise |
+| 故事 | [Gatluak 十四岁那年](story-gatluak.html) | C2 配对 A-000295 |
+| 文章 | [每一笔省下的钱，都在别处标了价](essay-tradeoffs.html) | P1–P7、H1–H3 |
+| 故事 | [十二个同龄人](story-twelve.html) | A 的 12 份个案 |
+
+故事情节只串联引擎日志，引号内为日志原文；文章数字取自各报告汇总表。
 
 ## 先读五篇主线
 
@@ -57,6 +74,9 @@ Windows 如果没有 `python` 命令，可用 `py -m http.server 8000`。
 life-simulation-lab/
 ├── index.html                 # 主线首页，生成文件
 ├── reports.html               # 全部报告索引，生成文件
+├── library.html               # 故事与文章目录，生成文件
+├── essay-*.html / story-*.html # 三篇文章与三个故事，生成文件
+├── reading.css                # 读物页面样式
 ├── A_peers2002.html … H3_checkup.html
 │                             # 15 份已发布报告，正文与图表数据保留在各页
 ├── site.css                   # 首页与报告目录样式
@@ -66,7 +86,9 @@ life-simulation-lab/
 │   ├── index.template.html    # 主线首页模板
 │   ├── reports.template.html  # 全部报告索引模板
 │   └── overview.fragment.html # 全部报告页中可展开的概览图表
-├── scripts/publish_site.py    # 生成首页、目录与报告导航
+├── scripts/publish_site.py    # 生成首页、目录、读物与报告导航
+├── scripts/reading.py         # 读物页面的生成逻辑
+├── site/reading/              # 文章与故事的正文源文件和顺序
 ├── docs/methodology.md        # 方法边界、原路径约定与 P1 详细口径
 ├── *.csv                     # 已发布的统计表与年龄快照
 ├── A-*.json.gz               # A 报告选出的 12 份模拟人生原始个案
@@ -88,7 +110,7 @@ python scripts/publish_site.py
 python scripts/publish_site.py --check
 ```
 
-发布脚本只使用 Python 标准库。它生成 `index.html`、`reports.html`，并替换报告中
+发布脚本只使用 Python 标准库。它生成 `index.html`、`reports.html`、`library.html` 和 `site/reading/` 下的每篇读物，并替换报告中
 `<!--site:bar-->`、`<!--site:guide-->`、`<!--site:next-->` 标记区域的内容。
 报告的统计正文、内嵌数据和交互脚本不由此脚本重新生成。
 `--check` 只检查生成结果与源文件是否一致，不写文件，也不复核统计结论。
