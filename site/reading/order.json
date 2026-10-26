@@ -1,10 +1,10 @@
 {
   "order": [
-    "essay-birthplace",
     "story-nine-births",
-    "essay-butterfly",
+    "essay-birthplace",
     "story-gatluak",
-    "essay-tradeoffs",
-    "story-twelve"
+    "essay-butterfly",
+    "story-twelve",
+    "essay-tradeoffs"
   ]
 }

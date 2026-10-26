@@ -1,57 +1,42 @@
-<!--meta {"kind":"essay","tag":"出生地与年代","title":"出生证明上的那一行字","dek":"同一个预设的人，分别出生在九个国家。每个 seed 九种人生里，最长和最短的寿命相差的中位数是 78 岁。相比之下，整套人生方针只解释了寿命差异的 0.3%。","color":"#3d5a80","reading":"约 6 分钟","card":{"blurb":"在模拟器里，出生地解释了寿命差异的 29.2%，人生方针只解释 0.3%。起点的分量，比我们以为的大得多。","big":"29.2% : 0.3%","small":"寿命差异中，国家与人生方针各自的解释份额"},"sources":[["B_country.html","B · 同一个人，换个出生地（18,000 局）"],["D_era.html","D · 同一个人，换个年代（24,000 局）"],["C_strategy.html","C · 同一个人，换种活法（18,000 局）"]]}-->
-<p>在 1in8b 这个人生模拟器里，第一个画面是一张出生纪录：哪一年、哪个国家、哪个城市、家境排在本国的第几个五分之一。玩家还没有做任何选择，这一行字已经写好了。我们想知道，这一行字在后面的人生里占多大分量。</p>
+<!--meta {"kind":"essay","tag":"出生地","title":"寿命这件事，出生地说了算","dek":"读书、出国、炒股，换哪种活法，寿命几乎不动。换一个出生国，平均寿命能差出 37 年。","color":"#3d5a80","reading":"约 5 分钟","card":{"blurb":"同一批人换六种活法，寿命几乎不动；换个出生国，平均能差 37 年。","big":"0.3%","small":"人生方针能解释的寿命差异"},"sources":[["C_strategy.html","C · 同一个人，换种活法"],["B_country.html","B · 同一个人，换个出生地"],["D_era.html","D · 同一个人，换个年代"]]}-->
+<p>跑这批实验之前，我以为“怎么活”会占不少分量。游戏里有那么多选项：拼命读书，想办法出国，把钱放进股市。总该有点用吧。</p>
 
-<p>B 实验的做法很直接。先用一个 seed 生成一个“预设的人”，固定她的性别、她在本国的相对家境档位和天分，再让她分别出生在中国、尼日利亚、刚果（金）、印度、巴西、美国、日本、德国和澳大利亚。1,000 个 seed，每个 seed 九种出生地，一共 9,000 局人生。</p>
+<p>在寿命上，几乎没用。</p>
 
-<h2><small>01 · 寿命</small>九个国家，九种平均寿命</h2>
+<p>C 实验让中国、尼日利亚、美国三国的同一批起点，各按六种方针过完一辈子：随波逐流、随便选、读书优先、出国优先、炒股，以及读书加出国加指数投资全都要。18,000 个人的寿命差异拆开来算，出生国能解释 29.2%，方针能解释 0.3%。剩下的七成，是每个人自己的差异和运气。</p>
 
-<p>把每个国家的 1,000 局放在一起，看完整出生队列的平均享年。这里包括出生不久就夭折的孩子，所以它比“活到成年的人能活多久”更残酷，也更接近一个人出生那一刻面对的处境。</p>
+<p>0.3% 小得有点出乎我的意料。于是我换了个问法：如果只改出生地呢？</p>
+
+<h2>同一个人，九个国家</h2>
+
+<p>B 实验先用一个 seed 捏出一个人，定好性别、在本国是穷是富、天分在哪，然后让这个人分别出生在九个国家。一共 1,000 个这样的人，9,000 局人生。</p>
 
 <figure class="figure">
-<h3>同一批预设人格的平均享年</h3>
-<p class="sub">B1 设定，每国 1,000 局，含婴幼儿死亡</p>
+<h3>平均享年</h3>
+<p class="sub">每国 1,000 局，算上了没长大的孩子</p>
 <div class="bars">
-<div class="bar-row"><span class="lab">澳大利亚</span><span class="track"><span class="fill alt" style="--w:87.1%"></span></span><span class="num">87.1 岁</span></div>
-<div class="bar-row"><span class="lab">日本</span><span class="track"><span class="fill alt" style="--w:86.8%"></span></span><span class="num">86.8 岁</span></div>
-<div class="bar-row"><span class="lab">德国</span><span class="track"><span class="fill alt" style="--w:85.6%"></span></span><span class="num">85.6 岁</span></div>
-<div class="bar-row"><span class="lab">美国</span><span class="track"><span class="fill alt" style="--w:83.8%"></span></span><span class="num">83.8 岁</span></div>
-<div class="bar-row"><span class="lab">中国</span><span class="track"><span class="fill" style="--w:80.2%"></span></span><span class="num">80.2 岁</span></div>
-<div class="bar-row"><span class="lab">巴西</span><span class="track"><span class="fill alt" style="--w:79.0%"></span></span><span class="num">79.0 岁</span></div>
-<div class="bar-row"><span class="lab">印度</span><span class="track"><span class="fill alt" style="--w:70.4%"></span></span><span class="num">70.4 岁</span></div>
-<div class="bar-row"><span class="lab">刚果（金）</span><span class="track"><span class="fill alt" style="--w:56.5%"></span></span><span class="num">56.5 岁</span></div>
-<div class="bar-row"><span class="lab">尼日利亚</span><span class="track"><span class="fill alt" style="--w:50.0%"></span></span><span class="num">50.0 岁</span></div>
+<div class="bar-row"><span class="lab">澳大利亚</span><span class="track"><span class="fill alt" style="--w:87.1%"></span></span><span class="num">87.1</span></div>
+<div class="bar-row"><span class="lab">日本</span><span class="track"><span class="fill alt" style="--w:86.8%"></span></span><span class="num">86.8</span></div>
+<div class="bar-row"><span class="lab">德国</span><span class="track"><span class="fill alt" style="--w:85.6%"></span></span><span class="num">85.6</span></div>
+<div class="bar-row"><span class="lab">美国</span><span class="track"><span class="fill alt" style="--w:83.8%"></span></span><span class="num">83.8</span></div>
+<div class="bar-row"><span class="lab">中国</span><span class="track"><span class="fill" style="--w:80.2%"></span></span><span class="num">80.2</span></div>
+<div class="bar-row"><span class="lab">巴西</span><span class="track"><span class="fill alt" style="--w:79.0%"></span></span><span class="num">79.0</span></div>
+<div class="bar-row"><span class="lab">印度</span><span class="track"><span class="fill alt" style="--w:70.4%"></span></span><span class="num">70.4</span></div>
+<div class="bar-row"><span class="lab">刚果（金）</span><span class="track"><span class="fill alt" style="--w:56.5%"></span></span><span class="num">56.5</span></div>
+<div class="bar-row"><span class="lab">尼日利亚</span><span class="track"><span class="fill alt" style="--w:50.0%"></span></span><span class="num">50.0</span></div>
 </div>
-<figcaption>差距的很大一部分发生在头五年：尼日利亚组活到 5 岁的比例是 80.6%，日本组是 99.6%。</figcaption>
 </figure>
 
-<p>最高和最低之间差了 37 年。造成这个差距的主要是童年：尼日利亚组每五个孩子里，就有一个没活到五岁。教育也一样，同样的天分和家境档位，在日本组有 50.5% 读到大学或研究所，在中国组是 41.8%，在尼日利亚组是 10.7%，在刚果（金）组只有 5.9%。</p>
+<p>尼日利亚那一栏的 50 岁，意思并不是那里的人活到五十就死。是很多孩子没长大：每五个里有一个活不到五岁。日本组这个比例是千分之四。</p>
 
-<p>再看单个 seed。每个 seed 有九种人生，把其中最长的寿命减去最短的，得到一个“九国极差”。1,000 个 seed 的极差中位数是 <strong>78 岁</strong>，有一成达到 101 岁或更多。下一篇故事里的那个女孩，极差是 113 岁：她在日本活到 113 岁，在德国没过周岁。</p>
+<p>读书也差在起点。同样的天分，同样排在本国最穷或最富的位置，日本组有一半读到大学，中国组四成多，尼日利亚组一成，刚果（金）组不到 6%。</p>
 
-<blockquote>极差这么大，不只是因为国家不同。出生地会改变后面每一次随机抽签，那位在德国夭折的女孩，是撞上了一次很小概率的新生儿疾病。<cite>所以极差同时包含“国家的规则”和“运气被重新洗牌”。</cite></blockquote>
+<p>单看一个人更扎眼。每个人九种人生，最长的减最短的，这个差的中位数是 78 岁。最大的一个是 113 岁：一个女孩在札幌活到 113，在科隆没过周岁。她的九种人生我单独写成了<a href="story-nine-births.html">一个故事</a>。</p>
 
-<h2><small>02 · 年代</small>换一个年份出生</h2>
+<h2>换个年份也一样</h2>
 
-<p>D 实验把出生年也当作变量：1950、1960、1978、1991、2002、2020 年，四个国家，各 1,000 局。在中国组，1950 年出生的人平均享年 53.1 岁，2002 年出生的人是 80.3 岁，2020 年出生的人是 84.3 岁。</p>
+<p>D 实验换的是出生年。中国组 1950 年出生的人平均活了 53.1 岁，2002 年出生的 80.3 岁，2020 年出生的 84.3 岁。</p>
 
-<p>1960 年这一组有一个明显的凹陷：活到 5 岁的比例只有 70.7%，比 1950 年那组的 78.0% 还低。这批孩子的童年正好赶上大跃进和随后的饥荒，引擎为这段历史写入了相应的事件。印度组的平均享年从 1950 年的 43.3 岁升到 2020 年的 77.8 岁；尼日利亚 1950 年出生组只有 33.5 岁。</p>
+<p>1960 年那一批是个坑。活到五岁的只有 70.7%，比十年前出生的那批还低。他们的童年赶上了大跃进和随后的饥荒，引擎里写了这段历史。尼日利亚 1950 年出生的那一批，平均只活了 33.5 岁。</p>
 
-<div class="stat-trio">
-<div><b>53.1 → 84.3</b><span>中国组平均享年，1950 年出生 vs 2020 年出生</span></div>
-<div><b>70.7%</b><span>中国 1960 年出生组活到 5 岁的比例，六个年代里最低</span></div>
-<div><b>33.5 岁</b><span>尼日利亚 1950 年出生组的平均享年</span></div>
-</div>
-
-<h2><small>03 · 对照</small>那么，怎么活又有多重要？</h2>
-
-<p>C 实验在中国、尼日利亚、美国三国里，让同一个起点分别执行六种人生方针：随波逐流、随机选、拼命读书、积极出国、炒股，以及“学习加出国加指数投资”的组合。然后把所有人的寿命差异拆开，看各自能被什么解释。</p>
-
-<p class="pull">国家解释了寿命差异的 <em>29.2%</em>，<br>人生方针只解释了 <em>0.3%</em>。</p>
-
-<p>剩下的 70.5% 来自个体差异和随机路径，报告里称为“未解释差异”。这组数字只针对寿命，财富上方针的影响要大一些，后面的文章会谈到。可就“能活多久”而言，在这个模拟器里，你选择怎么活，远不如你出生在哪里。</p>
-
-<h2><small>04 · 边界</small>这些数字说的是谁</h2>
-
-<p>这里所有结论都来自一个游戏引擎。它用联合国、世卫组织和世界银行的数据设置各国的出生、疾病和收入规则，所以国家之间的差距在很大程度上是这些数据的投影，再加上游戏作者写下的事件。它不能告诉你某个真实的人移民后会怎样，也不能证明“国家决定命运”。</p>
-
-<p>它能做的，是让一件我们口头上都承认、却很少认真看过的事变得具体：在一个尽量还原世界的模型里，同一个人只改动出生地这一项，结局就会差得这么远。</p>
+<p>这是游戏。国家之间的差距，大部分来自它照搬的联合国、世卫组织和世界银行数据，拿来劝谁移民就过头了。可“出生地很重要”这句话谁都听过，很少有人看过它具体有多大。在这里它有了数字：平均 37 年，外加五分之一的孩子。</p>

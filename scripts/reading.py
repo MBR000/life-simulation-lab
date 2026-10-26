@@ -81,9 +81,9 @@ def page(piece, prev, nxt):
             + f'<h1>{piece["title_html"] if "title_html" in piece else escape(piece["title"])}</h1>'
             + f'<p class="dek">{escape(piece["dek"])}</p>'
             + f'<div class="byline"><span>{escape(piece.get("reading", ""))}</span>'
-            + '<span>数据：1in8b v0.8.30 离线批量模拟，2026-10-24 存档</span></div></header>\n'
+            + '<span>1in8b v0.8.30 引擎 · 2026-10-24 存档</span></div></header>\n'
             + f'<article class="prose {piece["kind"]}">\n{piece["body"]}\n</article>\n'
-            + f'<aside class="sources"><h2>本文用到的数据</h2><ul>{sources}</ul></aside>\n'
+            + f'<aside class="sources"><h2>数据出处</h2><ul>{sources}</ul></aside>\n'
             + f'<nav class="read-next" aria-label="继续阅读">{"".join(nav)}</nav></main>\n' + FOOT)
 
 
@@ -100,7 +100,7 @@ def card(piece, index):
     return (f'<a class="story-card" href="{piece["file"]}" {tone}>'
             f'<span class="eyebrow">故事 · {escape(piece.get("tag", ""))}</span>'
             f'<h3>{escape(piece["title"])}</h3><p>{escape(c["blurb"])}</p>'
-            f'<div class="ages" aria-hidden="true">{ages}</div><span class="go">读这个故事 →</span></a>')
+            f'<div class="ages" aria-hidden="true">{ages}</div><span class="go">去读 →</span></a>')
 
 
 def cards(pieces, kind):
@@ -109,20 +109,20 @@ def cards(pieces, kind):
 
 
 def library(pieces):
-    return (head("故事与文章", "从 24.7 万次模拟人生里写出来的三篇文章和三个故事。", "#c0532d") + bar("故事与文章")
-            + '<main class="hub" id="content"><header class="library-head"><span class="eyebrow">读物 · 3 篇文章 / 3 个故事</span>'
-            + '<h1>二十四万次人生，<br>写成六篇读物</h1>'
-            + '<p class="lede">交互报告回答“差多少”。这里换一种读法：文章把十五份报告里最重要的几个发现串起来，'
-            + '故事则从原始人生纪录里挑出具体的人，逐条引用引擎写下的经历。</p></header>'
-            + '<section class="shelf" aria-labelledby="essays"><div class="section-heading"><div><span class="eyebrow">文章</span>'
-            + '<h2 id="essays">三个发现</h2></div><p>每篇约 6 分钟，数字全部来自已发布报告。</p></div>'
-            + f'<div class="feature-grid">{cards(pieces, "essay")}</div></section>'
+    return (head("故事与文章", "从 24.7 万次模拟人生里挑出来的三篇文章、三个故事。", "#c0532d") + bar("故事与文章")
+            + '<main class="hub" id="content"><header class="library-head"><span class="eyebrow">故事与文章</span>'
+            + '<h1>二十四万次人生里，<br>挑几个讲讲</h1>'
+            + '<p class="lede">报告里全是分布和中位数。这里换个读法：三篇文章，各讲一件让我意外的事；'
+            + '三个故事，讲几个具体的人。</p></header>'
             + '<section class="shelf" aria-labelledby="stories"><div class="section-heading"><div><span class="eyebrow">故事</span>'
-            + '<h2 id="stories">三组人生</h2></div><p>情节逐条来自引擎日志，没有补写。柱条是每个人的享年。</p></div>'
+            + '<h2 id="stories">几个具体的人</h2></div><p>情节全部来自引擎日志。小柱子是每个人活了多少岁。</p></div>'
             + f'<div class="story-grid">{cards(pieces, "story")}</div></section>'
-            + '<section class="method-note"><div><span class="eyebrow">写作约定</span><h2>故事怎么写成的</h2></div><div>'
-            + '<p>每个故事都能用页面上标注的 seed 在 v0.8.30 引擎里复现。引号里的句子是引擎原文；叙述部分只做串联和归纳，不添加记录之外的情节。</p>'
-            + '<p>文章里的数字取自各报告的汇总表。它们描述的是这个游戏引擎的规则与随机性，不是现实世界的统计结论。</p></div></section>'
+            + '<section class="shelf" aria-labelledby="essays"><div class="section-heading"><div><span class="eyebrow">文章</span>'
+            + '<h2 id="essays">三件意外的事</h2></div><p>数字都来自已发布的报告。</p></div>'
+            + f'<div class="feature-grid">{cards(pieces, "essay")}</div></section>'
+            + '<section class="method-note"><div><span class="eyebrow">说明</span><h2>这些故事是怎么来的</h2></div><div>'
+            + '<p>每个故事末尾都有 seed，用 v0.8.30 引擎能原样跑出来。引号里是引擎写的原话，我只做了串联，没编情节。</p>'
+            + '<p>这是一个游戏，数字说的是游戏的规则和运气。</p></div></section>'
             + '</main>\n' + FOOT)
 
 
