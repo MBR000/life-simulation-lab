@@ -5,7 +5,7 @@
 用一组交互式实验报告，观察模拟人生中的起点、选择与随机路径。
 从“一万个同龄人后来怎样”开始，再逐步改变出生地、年代、人生策略与一次具体选择。
 
-**[在线阅读](https://mbr000.github.io/life-simulation-lab/) · [故事与文章](https://mbr000.github.io/life-simulation-lab/library.html) · [全部 15 份报告](https://mbr000.github.io/life-simulation-lab/reports.html)**
+**[在线阅读](https://henrymeihao.github.io/life-simulation-lab/) · [故事与文章](https://henrymeihao.github.io/life-simulation-lab/library.html) · [全部 15 份报告](https://henrymeihao.github.io/life-simulation-lab/reports.html)**
 
 这是基于 v0.8.30 引擎结果的**静态报告与分析材料仓库**，包含图表、配对案例、汇总 CSV 和分析源码。
 模拟引擎与完整原始实验数据不在仓库内。结果描述模拟器中的人生，不是现实人口统计或个人预测。
@@ -59,7 +59,7 @@ A 提供默认人生的阅读背景；它并不是其他实验共用的统计对
 浏览报告不需要 Node.js、npm 或前端依赖，也不需要运行分析脚本。
 
 ```sh
-git clone https://github.com/MBR000/life-simulation-lab.git
+git clone https://github.com/henrymeihao/life-simulation-lab.git
 cd life-simulation-lab
 python -m http.server 8000
 ```

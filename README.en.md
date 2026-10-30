@@ -5,7 +5,7 @@
 Interactive reports exploring how starting conditions, choices, and randomness shape simulated lives.
 Start with 10,000 people born in the same year, then vary birthplace, birth year, life strategy, and a single decision.
 
-**[Read online](https://mbr000.github.io/life-simulation-lab/) · [Stories and essays](https://mbr000.github.io/life-simulation-lab/library.html) (Chinese) · [All 15 reports](https://mbr000.github.io/life-simulation-lab/reports.html)**
+**[Read online](https://henrymeihao.github.io/life-simulation-lab/) · [Stories and essays](https://henrymeihao.github.io/life-simulation-lab/library.html) (Chinese) · [All 15 reports](https://henrymeihao.github.io/life-simulation-lab/reports.html)**
 
 This is a **static report and analysis-material repository** based on engine v0.8.30 outputs, with charts, paired cases, summary CSVs, and analysis source.
 The simulation engine and complete original experiment data are not included. Results describe the simulator, not real populations or personal predictions.
@@ -48,7 +48,7 @@ Report text and site navigation are currently in Chinese. This English README ex
 No Node.js, npm, frontend dependencies, or analysis run is required to browse the reports.
 
 ```sh
-git clone https://github.com/MBR000/life-simulation-lab.git
+git clone https://github.com/henrymeihao/life-simulation-lab.git
 cd life-simulation-lab
 python -m http.server 8000
 ```

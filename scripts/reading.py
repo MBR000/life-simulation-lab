@@ -60,7 +60,7 @@ def head(title, desc, color):
 
 FOOT = ('<footer class="read-foot"><span>人生模拟实验室 · 基于 1in8b v0.8.30 引擎的离线模拟，'
         '不是现实预测</span><span><a href="library.html">全部故事与文章</a> · '
-        '<a href="index.html">首页</a> · <a href="https://github.com/MBR000/life-simulation-lab">GitHub</a></span></footer>\n'
+        '<a href="index.html">首页</a> · <a href="https://github.com/henrymeihao/life-simulation-lab">GitHub</a></span></footer>\n'
         '</body>\n</html>\n')
 
 
